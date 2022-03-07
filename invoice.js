@@ -39,10 +39,14 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 
 
 		const commitRows = await page.$$eval('div.commit-row-title', pub => pub.map(pu => pu.innerText));
-		log(commitRows);
+		//log(commitRows);
 
 		const timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText));
-		log(timeStamps);
+		//log(timeStamps);
+
+		for (let x = 0; x < commitRows.length; x++) {
+			log(`${timeStamps[x]}\t${commitRows[x]}`)
+		}
 		/*
 	
 		//----click no notifications
