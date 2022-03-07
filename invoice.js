@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
 const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers');
-const { memeAccounts } = require('./src/meme');
+// const { memeAccounts } = require('./src/meme');
 
 (async () => {
 	try {
@@ -17,7 +17,6 @@ const { memeAccounts } = require('./src/meme');
 		//---- redirect to login page
 		await page.goto('https://gitlab.com', { waitUntil: 'domcontentloaded' });
 		await page.waitForSelector('#navigation-login > img');
-		console.log('found button');
 		await Promise.all([page.waitForNavigation({ waitUntil: 'domcontentloaded' }), page.click('#navigation-login > img')]);
 		await page.waitForTimeout(r15);
 
@@ -30,7 +29,7 @@ const { memeAccounts } = require('./src/meme');
 
 		//---- goto activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 20; i++) {
+		for (let i = 0; i < 15; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
@@ -40,11 +39,10 @@ const { memeAccounts } = require('./src/meme');
 
 
 		const commitRows = await page.$$eval('div.commit-row-title', pub => pub.map(pu => pu.innerText));
-		console.log('commitRows.length: ' + commitRows.length);
-		console.log('commitRows: ' + commitRows);
+		log(commitRows);
 
 		const timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText));
-		console.log('timeStamps: ' + timeStamps);
+		log(timeStamps);
 		/*
 	
 		//----click no notifications
