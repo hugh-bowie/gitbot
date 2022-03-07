@@ -1,0 +1,25 @@
+{
+  "name": "gitbot",
+  "version": "1.0.0",
+  "description": "automate fetching gitlab data",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugh-bowie/gitbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugh-bowie/gitbot/issues"
+  },
+  "homepage": "https://github.com/hugh-bowie/gitbot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "puppeteer": "^13.5.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}
