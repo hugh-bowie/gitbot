@@ -6,16 +6,18 @@ puppeteer.use(StealthPlugin());
 const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers');
 // const { memeAccounts } = require('./src/meme');
 
-const teststring = "Mar 3, 2022, 3:13 PM	i	dc017fff · 1|00482 updated for MLR	15068";
-const hoursRegex = /(?<=·)(.+)(?=\|)/g;
-const bodyRegex = /(?<=\|)(.*)/g;
+// const timeString = "Mar 3, 2022, 3:13 PM"
+// const bodyString = "dc017fff · 1|00482 updated for MLR";
+// const hoursRegex = /(?<=·)(.+)(?=\|)/g;
+// const bodyRegex = /(?<=\|)(.*)/g;
+// let body = bodyString.match(bodyRegex, t => t.trim());
+// let hours = bodyString.match(hoursRegex, t => t.trim());
+// let date = timeString.slice(0, 12);
+// //console.log(teststring);
+// //console.log(body + '\t' + hours);
+// console.log(`${date}\t${body}\t${hours}`);
 
-const hours = teststring.match(hoursRegex.toString().trim());
 
-console.log(teststring);
-console.log(hours);
-
-/*
 (async () => {
 	try {
 
@@ -46,18 +48,24 @@ console.log(hours);
 		//get all the commits
 		//$x('//*[@class="commit-row-title"]')
 
-		
+
+
 		const commitRows = await page.$$eval('div.commit-row-title', pub => pub.map(pu => pu.innerText)); // returns dc017fff · 1|00482 updated for MLR	15068
-		await page.waitForTimeout(555);
+		const timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText)); // Mar 3, 2022, 3:13 PM
+		await page.waitForTimeout(222);
+		for (const rows of commitRows) {
+			if (rows.includes('|')) {
+				await page.waitForTimeout(111);
+				log(rows.slice(11));
+			}
+		}
 
-		//log(commitRows);
-
-		const timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText));
 		await page.waitForTimeout(555);
 		//log(timeStamps);
 		//console.log('found this many rows: ' + commitRows.length);
 		console.log('found this many times: ' + timeStamps.length);
 
+		/*
 		for (let x = 0; x < commitRows.length; x++) {
 			await page.waitForTimeout(111);
 			if (commitRows[x].indexOf('|') >= 0) {
@@ -66,7 +74,7 @@ console.log(hours);
 				log(`${timeStamps[x]}\ti\t${commitRows[x]}\t15068\t`);
 			}
 		}
-		/*
+		
 	
 		//----click no notifications
 		const notifyBtn = await page.$x('//*[contains(text(), "Not Now")]');
@@ -199,7 +207,7 @@ console.log(hours);
 					}
 				}
 			}
-		}
+		}*/
 		//BACK AND CLOSE BROWSER
 		await browser.close();
 		process.exit(1);
@@ -208,4 +216,3 @@ console.log(hours);
 		process.exit(1);
 	}
 })();
-*/
