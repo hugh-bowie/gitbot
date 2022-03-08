@@ -53,6 +53,7 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 			await page.waitForTimeout(111);
 			if (commitRows[x].indexOf('|') >= 0) {
 
+
 				log(`${timeStamps[x]}\ti\t${commitRows[x]}\t15068\t`);
 			}
 		}
