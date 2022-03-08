@@ -6,6 +6,16 @@ puppeteer.use(StealthPlugin());
 const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers');
 // const { memeAccounts } = require('./src/meme');
 
+const teststring = "Mar 3, 2022, 3:13 PM	i	dc017fff · 1|00482 updated for MLR	15068";
+const hoursRegex = /(?<=·)(.+)(?=\|)/g;
+const bodyRegex = /(?<=\|)(.*)/g;
+
+const hours = teststring.match(hoursRegex.toString().trim());
+
+console.log(teststring);
+console.log(hours);
+
+/*
 (async () => {
 	try {
 
@@ -22,12 +32,11 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 
 		//----- login submit
 		await page.waitForSelector("#user_login", { visible: true });
-		//await page.click("#user_login");
 		await page.type("#user_login", process.env.GITUSR, { delay: r(50, 100) });
 		await page.type("#user_password", process.env.GITPW, { delay: r(50, 100) });
 		await Promise.all([page.waitForNavigation({ waitUntil: 'domcontentloaded' }), page.click('input[type="submit"]')]);
 
-		//---- goto activity
+		//---- goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
 		for (let i = 0; i < 15; i++) {
 			await page.keyboard.press('PageDown');
@@ -37,8 +46,8 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 		//get all the commits
 		//$x('//*[@class="commit-row-title"]')
 
-
-		const commitRows = await page.$$eval('div.commit-row-title', pub => pub.map(pu => pu.innerText));
+		
+		const commitRows = await page.$$eval('div.commit-row-title', pub => pub.map(pu => pu.innerText)); // returns dc017fff · 1|00482 updated for MLR	15068
 		await page.waitForTimeout(555);
 
 		//log(commitRows);
@@ -190,7 +199,7 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 					}
 				}
 			}
-		}*/
+		}
 		//BACK AND CLOSE BROWSER
 		await browser.close();
 		process.exit(1);
@@ -199,3 +208,4 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 		process.exit(1);
 	}
 })();
+*/
