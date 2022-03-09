@@ -5,6 +5,15 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
 const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers');
 
+// let str = "Don’t be jelly • . .• .•. #dontbejelly #peanutbutterjellytime #peanutbutter #peanutbutterjelly #easylunch #breakfast #foodie #pbj #peanutbutteraddict #peanutbutterandjelly #aesthetic #almondbutterflavor #almondbuttertoast #breakfastideas #cooking101 #cookinghacks #cookingmom #cookingtips #diylifehacks #easylunchboxes #easylunchideas #easylunchrecipes #easyrecipesathome #eatlover #foodblogger #foodhacks #foodiesofinstagram #foodporn #dropsquad #onlydwightschrute";
+
+// const tagrex = /(#\w+)/ig;
+// const tags = str.match(tagrex);//ARRAY
+// const dotrex = /[•.]/ig;
+// const capt = str.replace(tagrex, "").replace(dotrex, "").trim();
+
+// console.log(`${capt.toString()}\n${tags.toString()}`);
+
 // const timeString = "Mar 3, 2022, 3:13 PM"
 // const bodyString = "dc017fff · 1|00482 updated for MLR";
 // const hoursRegex = /(?<=·)(.+)(?=\|)/g;
