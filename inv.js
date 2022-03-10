@@ -36,8 +36,8 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 
 		//---- redirect to login page
 		await page.goto('https://gitlab.com', { waitUntil: 'domcontentloaded' });
-		await page.waitForSelector('#navigation-login > img');
-		await Promise.all([page.waitForNavigation({ waitUntil: 'domcontentloaded' }), page.click('#navigation-login > img')]);
+		await page.waitForSelector('a[href="https://gitlab.com/users/sign_in"] > svg');
+		await Promise.all([page.waitForNavigation({ waitUntil: 'domcontentloaded' }), page.click('a[href="https://gitlab.com/users/sign_in"] > svg')]);
 		await page.waitForTimeout(r15);
 
 		//----- login submit
@@ -222,6 +222,6 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 		process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		process.exit(1);
+		//process.exit(1);
 	}
 })();
