@@ -18,6 +18,7 @@
   "homepage": "https://github.com/hugh-bowie/gitbot#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
+    "node": "^17.7.1",
     "puppeteer": "^13.5.0",
     "puppeteer-extra": "^3.2.3",
     "puppeteer-extra-plugin-stealth": "^2.9.0"
