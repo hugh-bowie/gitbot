@@ -3,7 +3,7 @@ const fs = require('fs');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers');
+const { r, log, device, r15, r23 } = require('./src/helpers');
 
 
 (async () => {
@@ -41,6 +41,9 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 		const commitRows = await page.$$eval('div.commit-row-title', pub => pub.map(pu => pu.innerText)); // returns dc017fff · 1|00482 updated for MLR	15068
 		const timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText)); // Mar 3, 2022, 3:13 PM
 
+		// console.log(timeStamps)
+		// console.log(commitRows);
+
 		await page.waitForTimeout(222);
 		for (const rows of commitRows) {
 			if (rows.includes('|')) {
@@ -56,11 +59,11 @@ const { r, log, logD, device, badAccounts, r15, r23 } = require('./src/helpers')
 
 
 		//BACK AND CLOSE BROWSER
-		await browser.close();
-		process.exit(1);
+		//await browser.close();
+		//process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		process.exit(1);
+		//process.exit(1);
 	}
 })();
 

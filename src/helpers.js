@@ -10,43 +10,13 @@ function r(min, max) {
 
 //Function that logs timeStamp + data + \n
 function log(data) {
-	let date = new Date();
-	let t = date.toLocaleTimeString(); // 2:22:09 PM
-	// let d = date.toLocaleDateString(); // 01/03/1984	
-	fs.appendFile('K:/My Drive/invoice.txt', `${data}\n`, () => {
+	let date = new Date().toLocaleDateString().replaceAll("/", "-");// 01-03-1984	
+
+	fs.appendFile(`K:/My Drive/invoice_${date}.txt`, `${data}\n`, () => {
 		console.log(`${data}`);
 	});
 }
 
-function logD(data) {
-	let date = new Date();
-	let t = date.toLocaleTimeString(); // 2:22:09 PM
-	let d = date.toLocaleDateString(); // 01/03/1984
-	let timeNow = `${d} ${t}`;
-	fs.appendFile('K:/My Drive/dks.txt', `${data} @${timeNow}\n`, () => {
-		// console.log(`${data}`);
-	});
-}
-
-function logH(data) {
-	let date = new Date();
-	let t = date.toLocaleTimeString(); // 2:22:09 PM
-	let d = date.toLocaleDateString(); // 01/03/1984
-	let timeNow = `${d} ${t}`;
-	fs.appendFile('K:/My Drive/hb.txt', `${data} @${timeNow}\n`, () => {
-		// console.log(`${data}`);
-	});
-}
-
-function logT(data) {
-	let date = new Date();
-	let t = date.toLocaleTimeString(); // 2:22:09 PM
-	let d = date.toLocaleDateString(); // 01/03/1984
-	let timeNow = `${d} ${t}`;
-	fs.appendFile('K:/My Drive/twtr.txt', `${data} @${timeNow}\n`, () => {
-		// console.log(`${data}`);
-	});
-}
 
 //\\\\ test delay function ////\\
 // setTimeout(function () {
@@ -67,7 +37,6 @@ const device = {
 	},
 };
 
-// Accounts not to engage
-const badAccounts = ['https://www.instagram.com/hb.iv', 'https://www.instagram.com/lj_brink_'];
 
-module.exports = { device, r, log, logD, logT, logH, badAccounts, r15, r23 }; //timeNow,timeFin,
+
+module.exports = { device, r, log, badAccounts, r15, r23 };
