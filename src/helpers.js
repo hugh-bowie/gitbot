@@ -12,6 +12,7 @@ function r(min, max) {
 function log(data) {
 	let date = new Date().toLocaleDateString().replaceAll("/", "-");// 01-03-1984	
 
+
 	fs.appendFile(`K:/My Drive/invoice_${date}.txt`, `${data}\n`, () => {
 		console.log(`${data}`);
 	});
@@ -39,4 +40,4 @@ const device = {
 
 
 
-module.exports = { device, r, log, badAccounts, r15, r23 };
+module.exports = { device, r, log, r15, r23 };

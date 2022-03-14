@@ -37,33 +37,45 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 		//$x('//*[@class="commit-row-title"]')
 
 
-
 		const commitRows = await page.$$eval('div.commit-row-title', pub => pub.map(pu => pu.innerText)); // returns dc017fff · 1|00482 updated for MLR	15068
 		const timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText)); // Mar 3, 2022, 3:13 PM
+		await page.waitForTimeout(111);
 
-		// console.log(timeStamps)
-		// console.log(commitRows);
+		for (let i = 0; i < commitRows.lenght; i++) {
 
-		await page.waitForTimeout(222);
-		for (const rows of commitRows) {
-			if (rows.includes('|')) {
+			if (commitRows[i].indexOF('|') != -1) {
 				await page.waitForTimeout(111);
-				log(rows.slice(11));
+				log(commitRows[i].toString() + '\t' + timeStamps[i].toString());
+
 			}
 		}
 
-		await page.waitForTimeout(555);
-		//log(timeStamps);
-		//console.log('found this many rows: ' + commitRows.length);
-		console.log('found this many times: ' + timeStamps.length);
+
+
+		// let goodCommits = commitRows.filter(co => co.includes == '|');
+		// console.log(timeStamps.toString());
+		// console.log(commitRows.toString());
+		// console.log(goodCommits.toString());
+		//*[@id="activity"]/div[2]/div[83]/div[5]/ul/li/div/text()
+
+		// await page.waitForTimeout(222);
+		// for (const rows of commitRows) {
+		// 	if (rows.includes('|')) {
+		// 		await page.waitForTimeout(111);
+		// 		log(rows.slice(11));
+		// 	}
+		// }
+
+
+
 
 
 		//BACK AND CLOSE BROWSER
-		//await browser.close();
-		//process.exit(1);
+		await browser.close();
+		process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		//process.exit(1);
+		process.exit(1);
 	}
 })();
 
