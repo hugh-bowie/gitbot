@@ -10,10 +10,8 @@ function r(min, max) {
 
 //Function that logs timeStamp + data + \n
 function log(data) {
-	let date = new Date().toLocaleDateString().replaceAll("/", "-");// 01-03-1984	
 
-
-	fs.appendFile(`K:/My Drive/invoice_${date}.txt`, `${data}\n`, () => {
+	fs.appendFile(`K:/My Drive/invoice.txt`, `${data}\n`, () => {
 		console.log(`${data}`);
 	});
 }

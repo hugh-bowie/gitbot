@@ -33,44 +33,25 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 			await page.waitForTimeout(555);
 		}
 
-		//get all the commits
-		//$x('//*[@class="commit-row-title"]')
-
-
+		//get all ccommit rows
 		const commitRows = await page.$$eval('div.commit-row-title', pub => pub.map(pu => pu.innerText)); // returns dc017fff · 1|00482 updated for MLR	15068
 		const timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText)); // Mar 3, 2022, 3:13 PM
 		await page.waitForTimeout(111);
 
-		for (let i = 0; i < commitRows.lenght; i++) {
-
-			if (commitRows[i].indexOF('|') != -1) {
+		//log all commit rows if they have the '|' char
+		for (let i = 0; i < commitRows.length; i++) {
+			let dexA = commitRows[i].indexOf('|');
+			let dexB = commitRows[i].indexOf('#');
+			if (dexA >= 0) {
+				let hrs = commitRows[i].toString().slice(dexA - 2, dexA);// returns two places left of the "|"
+				let issue = commitRows[i].toString().slice(dexB, dexB + 3);// returns 
 				await page.waitForTimeout(111);
-				log(commitRows[i].toString() + '\t' + timeStamps[i].toString());
-
+				log(timeStamps[i].toString().slice(0, 8) + '2022 \t' + issue + '\t' + commitRows[i].toString().replace(/\#../, "").slice(dexA + 1) + '\t' + hrs.trim());
 			}
 		}
 
-
-
-		// let goodCommits = commitRows.filter(co => co.includes == '|');
-		// console.log(timeStamps.toString());
-		// console.log(commitRows.toString());
-		// console.log(goodCommits.toString());
-		//*[@id="activity"]/div[2]/div[83]/div[5]/ul/li/div/text()
-
-		// await page.waitForTimeout(222);
-		// for (const rows of commitRows) {
-		// 	if (rows.includes('|')) {
-		// 		await page.waitForTimeout(111);
-		// 		log(rows.slice(11));
-		// 	}
-		// }
-
-
-
-
-
 		//BACK AND CLOSE BROWSER
+		await page.waitForTimeout(555);
 		await browser.close();
 		process.exit(1);
 	} catch (e) {
@@ -99,3 +80,17 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 // //console.log(teststring);
 // //console.log(body + '\t' + hours);
 // console.log(`${date}\t${body}\t${hours}`);
+
+		// let goodCommits = commitRows.filter(co => co.includes == '|');
+		// console.log(timeStamps.toString());
+		// console.log(commitRows.toString());
+		// console.log(goodCommits.toString());
+		//*[@id="activity"]/div[2]/div[83]/div[5]/ul/li/div/text()
+
+		// await page.waitForTimeout(222);
+		// for (const rows of commitRows) {
+		// 	if (rows.includes('|')) {
+		// 		await page.waitForTimeout(111);
+		// 		log(rows.slice(11));
+		// 	}
+		// }
