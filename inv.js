@@ -45,11 +45,11 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 			let dexC = timeStamps[i].indexOf(',');
 			if (dexA >= 0) {
 				let hrs = commitRows[i].toString().slice(dexA - 2, dexA).trim();// returns two places left of the "|"
-				let issue = commitRows[i].toString().slice(dexB + 1, dexB + 3);// returns
+				let issue = commitRows[i].toString().slice(dexB, dexB + 3).replace('#', '');// returns 
 				let times = timeStamps[i].toString().slice(0, dexC) + ' 2022';
 				let body = commitRows[i].toString().replace(/\#../, "").slice(dexA + 1);
 				await page.waitForTimeout(111);
-				log(`${times}\t${issue}\t${body}\t00000\t${hrs}`);
+				log(`${times}\t${issue}\t${body}\tunk\t${hrs}`);
 			}
 		}
 
