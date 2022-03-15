@@ -42,11 +42,14 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 		for (let i = 0; i < commitRows.length; i++) {
 			let dexA = commitRows[i].indexOf('|');
 			let dexB = commitRows[i].indexOf('#');
+			let dexC = timeStamps[i].indexOf(',');
 			if (dexA >= 0) {
-				let hrs = commitRows[i].toString().slice(dexA - 2, dexA);// returns two places left of the "|"
-				let issue = commitRows[i].toString().slice(dexB, dexB + 3);// returns 
+				let hrs = commitRows[i].toString().slice(dexA - 2, dexA).trim();// returns two places left of the "|"
+				let issue = commitRows[i].toString().slice(dexB + 1, dexB + 3);// returns
+				let times = timeStamps[i].toString().slice(0, dexC) + ' 2022';
+				let body = commitRows[i].toString().replace(/\#../, "").slice(dexA + 1);
 				await page.waitForTimeout(111);
-				log(timeStamps[i].toString().slice(0, 8) + '2022 \t' + issue + '\t' + commitRows[i].toString().replace(/\#../, "").slice(dexA + 1) + '\t' + hrs.trim());
+				log(`${times}\t${issue}\t${body}\t00000\t${hrs}`);
 			}
 		}
 
