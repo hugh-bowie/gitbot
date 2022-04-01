@@ -10,7 +10,7 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 	try {
 
 		//----initialize
-		const browser = await puppeteer.launch({ headless: false, args: ['--incognito'] }); //////// slowMo: 100,♻♻♻♻♻♻♻♻♻♻
+		const browser = await puppeteer.launch({ headless: false, args: ['--incognito'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
 		const page = await browser.newPage();
 		//await page.emulate(device);
 
@@ -24,11 +24,11 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 		await page.waitForSelector("#user_login", { visible: true });
 		await page.type("#user_login", process.env.GITUSR, { delay: r(50, 100) });
 		await page.type("#user_password", process.env.GITPW, { delay: r(50, 100) });
-		await Promise.all([page.waitForNavigation({ waitUntil: 'domcontentloaded' }), page.click('input[type="submit"]')]);
+		await Promise.all([page.waitForNavigation({ waitUntil: 'domcontentloaded' }), page.click('[data-testid="sign-in-button"]')]);
 
 		//---- goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 15; i++) {
+		for (let i = 0; i < 20; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
