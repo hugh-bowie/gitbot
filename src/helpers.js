@@ -11,7 +11,7 @@ function r(min, max) {
 //Function that logs timeStamp + data + \n
 function log(data) {
 
-	fs.appendFile(`K:/My Drive/invoice.txt`, `${data}\n`, () => {
+	fs.appendFile(`invoice.txt`, `${data}\n`, () => {
 		console.log(`${data}`);
 	});
 }
