@@ -16,8 +16,8 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 
 		//---- redirect to login page
 		await page.goto('https://gitlab.com', { waitUntil: 'networkidle2' });
-		await page.waitForSelector('a[href="https://gitlab.com/users/sign_in/"]');
-		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[href="https://gitlab.com/users/sign_in/"] > svg')]);
+		await page.waitForSelector('a[href="https://gitlab.com/users/sign_in"]');
+		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[aria-label="Login"]')]);
 		await page.waitForTimeout(r15);
 
 		//----- login submit
