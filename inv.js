@@ -28,7 +28,7 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 
 		//---- goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 33; i++) {
+		for (let i = 0; i < 25; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
