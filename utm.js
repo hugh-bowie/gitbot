@@ -3,22 +3,32 @@ const fs = require('fs');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-const { r, log, device, r15, r23 } = require('./src/helpers');
+const { r, log, mobile, desktop, r15, r23 } = require('./src/helpers');
 
 
 (async () => {
 	try {
-
+		//args: ['--incognito', '--start-maximized' , '--start-fullscreen', '--window-position=0,0', `--window-size=${options.width || 1280},${options.height || 800}`,] )))
 		//----initialize
 		const browser = await puppeteer.launch({ headless: false, args: ['--incognito'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
 		const page = await browser.newPage();
-		//await page.emulate(des);
+		await page.emulate(desktop);
 
 		//---- redirect to login page
-		await page.goto('https://gitlab.com', { waitUntil: 'networkidle2' });
-		await page.waitForSelector('a[href="https://gitlab.com/users/sign_in"]');
-		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[aria-label="Login"]')]);
+		await page.goto('https://gitlab.com', { waitUntil: 'networkidle0' });
 		await page.waitForTimeout(r15);
+		const loginBtnA = await page.$('a[aria-label="Login"]');
+		const loginBtnB = await page.$('a[data-nav="Login"]');
+		if (loginBtnA) {
+			await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[aria-label="Login"]')]);
+			await page.waitForTimeout(r15);
+		} else if (loginBtnB) {
+			await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="Login"]')]);
+			await page.waitForTimeout(r15);
+		}
+
+		//await page.waitForSelector('a[href="https://gitlab.com/users/sign_in"]');
+
 
 		//----- login submit
 		await page.waitForSelector("#user_login", { visible: true });
@@ -26,15 +36,14 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 		await page.type("#user_password", process.env.GITPW, { delay: r(50, 100) });
 		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('[data-testid="sign-in-button"]')]);
 
-		//---- goto user activity
-		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 25; i++) {
+		//---- goto first issue
+		await page.goto('https://gitlab.com/dfagang/UCBCorp/cimzia/cimzia-mjml-email-kinetic-field/-/issues/133', { waitUntil: 'networkidle2' });
+		/*for (let i = 0; i < 25; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
 
 		//get all ccommit rows
-
 		let commitRows = await page.$$eval('li.commit > div', pub => pub.map(pu => pu.innerText)); // returns dc017fff · 1|00482 updated for MLR	15068
 		let commitTitles = await page.$$eval('div.commit-row-title a.gfm', tit => tit.map(ti => ti.getAttribute('title')));
 		let issueNo = await page.$$eval('div.commit-row-title a.gfm.gfm-issue', te => te.map(t => t.innerText));
@@ -69,10 +78,10 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 		//BACK AND CLOSE BROWSER
 		await page.waitForTimeout(555);
 		await browser.close();
-		process.exit(1);
+		process.exit(1);*/
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		process.exit(1);
+		// process.exit(1);
 	}
 })();
 

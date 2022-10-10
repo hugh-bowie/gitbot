@@ -23,7 +23,7 @@ function log(data) {
 // }, 2000);
 
 // pretends this is a phone not a desktop
-const device = {
+const mobile = {
 	name: 'iPhone 13 Pro Max',
 	userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1',
 	viewport: {
@@ -36,6 +36,19 @@ const device = {
 	},
 };
 
+const desktop = {
+	name: 'PC',
+	userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+	viewport: {
+		width: 1920,
+		height: 937,
+		deviceScaleFactor: 1,
+		isMobile: false,
+		hasTouch: false,
+		isLandscape: false,
+	},
+};
 
 
-module.exports = { device, r, log, r15, r23 };
+
+module.exports = { mobile, desktop, r, log, r15, r23 };
