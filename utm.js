@@ -8,27 +8,19 @@ const { r, log, mobile, desktop, r15, r23 } = require('./src/helpers');
 
 (async () => {
 	try {
-		//args: ['--incognito', '--start-maximized' , '--start-fullscreen', '--window-position=0,0', `--window-size=${options.width || 1280},${options.height || 800}`,] )))
+		/*args: ['--incognito', '--start-maximized' , '--start-fullscreen', '--window-position=0,0', '--start-in-incognito', `--window-size=${options.width || 1280},${options.height || 800}`,] )))*/
+
 		//----initialize
-		const browser = await puppeteer.launch({ headless: false, args: ['--incognito'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
+		const browser = await puppeteer.launch({ headless: false, args: ['--start-in-incognito', '--window-size=1920,1047', '--window-position=0,0'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
 		const page = await browser.newPage();
-		await page.emulate(desktop);
+		//await page.emulate(desktop);
 
 		//---- redirect to login page
-		await page.goto('https://gitlab.com', { waitUntil: 'networkidle0' });
+		await page.goto('https://gitlab.com', { waitUntil: 'networkidle2' });
 		await page.waitForTimeout(r15);
-		const loginBtnA = await page.$('a[aria-label="Login"]');
-		const loginBtnB = await page.$('a[data-nav="Login"]');
-		if (loginBtnA) {
-			await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[aria-label="Login"]')]);
-			await page.waitForTimeout(r15);
-		} else if (loginBtnB) {
-			await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="Login"]')]);
-			await page.waitForTimeout(r15);
-		}
-
-		//await page.waitForSelector('a[href="https://gitlab.com/users/sign_in"]');
-
+		await page.waitForSelector('a[data-nav="login"]');
+		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="login"]')]);
+		await page.waitForTimeout(r15);
 
 		//----- login submit
 		await page.waitForSelector("#user_login", { visible: true });
@@ -38,6 +30,16 @@ const { r, log, mobile, desktop, r15, r23 } = require('./src/helpers');
 
 		//---- goto first issue
 		await page.goto('https://gitlab.com/dfagang/UCBCorp/cimzia/cimzia-mjml-email-kinetic-field/-/issues/133', { waitUntil: 'networkidle2' });
+
+		let testingURL = await page.$eval('a[href*="netlify.app/"]', href => href.getAttribute('href'));
+		if (testingURL) {
+			console.log(testingURL);
+			let stagedEmail = await browser.newPage();
+			await stagedEmail.goto(testingURL, { waitUntil: 'networkidle2' });
+			await stagedEmail.screenshot({ path: `testingURL.png`, fullPage: 'true' });
+			await stagedEmail.waitForTimeout(r15);
+			await browser.close();
+		}
 		/*for (let i = 0; i < 25; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
