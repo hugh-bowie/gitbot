@@ -36,9 +36,10 @@ const { r, log, mobile, desktop, r15, r23 } = require('./src/helpers');
 			console.log(testingURL);
 			let stagedEmail = await browser.newPage();
 			await stagedEmail.goto(testingURL, { waitUntil: 'networkidle2' });
+			const linksOnPage = await stagedEmail.$$('')
 			await stagedEmail.screenshot({ path: `testingURL.png`, fullPage: 'true' });
 			await stagedEmail.waitForTimeout(r15);
-			await browser.close();
+			//await stagedEmail.close();
 		}
 		/*for (let i = 0; i < 25; i++) {
 			await page.keyboard.press('PageDown');
