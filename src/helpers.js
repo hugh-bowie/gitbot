@@ -16,6 +16,26 @@ function log(data) {
 	});
 }
 
+function logLinks(data) {
+
+	fs.appendFile('linklist.txt', `${data}\n`, () => {
+		console.log(`${data}\n`);
+
+	});
+}
+
+
+function makeList(data) {
+	let date = new Date();
+	let t = date.toLocaleTimeString(); // 2:22:09 PM
+	let d = date.toLocaleDateString(); // 01/03/1984	
+	fs.writeFile('linklist.txt', `File Created: ${d}@${t}\n`, (err) => {
+		if (err) throw err;
+		console.log(`File Created: ${d}@${t}\n`);
+	});
+}
+
+
 
 //\\\\ test delay function ////\\
 // setTimeout(function () {
@@ -51,4 +71,4 @@ const desktop = {
 
 
 
-module.exports = { mobile, desktop, r, log, r15, r23 };
+module.exports = { mobile, desktop, r, log, makeList, logLinks, r15, r23 };

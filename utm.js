@@ -3,7 +3,8 @@ const fs = require('fs');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-const { r, log, mobile, desktop, r15, r23 } = require('./src/helpers');
+const { r, log, logLinks, makeList, mobile, desktop, r15, r23 } = require('./src/helpers');
+makeList();
 
 
 (async () => {
@@ -17,30 +18,68 @@ const { r, log, mobile, desktop, r15, r23 } = require('./src/helpers');
 
 		//---- redirect to login page
 		await page.goto('https://gitlab.com', { waitUntil: 'networkidle2' });
-		await page.waitForTimeout(r15);
+		//await page.waitForTimeout(r15);
 		await page.waitForSelector('a[data-nav="login"]');
 		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="login"]')]);
-		await page.waitForTimeout(r15);
+		//await page.waitForTimeout(r15);
 
 		//----- login submit
 		await page.waitForSelector("#user_login", { visible: true });
-		await page.type("#user_login", process.env.GITUSR, { delay: r(50, 100) });
-		await page.type("#user_password", process.env.GITPW, { delay: r(50, 100) });
+		await page.type("#user_login", process.env.GITUSR);
+		await page.type("#user_password", process.env.GITPW);
 		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('[data-testid="sign-in-button"]')]);
 
 		//---- goto first issue
-		await page.goto('https://gitlab.com/dfagang/UCBCorp/cimzia/cimzia-mjml-email-kinetic-field/-/issues/133', { waitUntil: 'networkidle2' });
+		await page.goto('https://gitlab.com/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/11', { waitUntil: 'networkidle2' });
 
-		let testingURL = await page.$eval('a[href*="netlify.app/"]', href => href.getAttribute('href'));
-		if (testingURL) {
-			console.log(testingURL);
-			let stagedEmail = await browser.newPage();
-			await stagedEmail.goto(testingURL, { waitUntil: 'networkidle2' });
-			const linksOnPage = await stagedEmail.$$('')
-			await stagedEmail.screenshot({ path: `testingURL.png`, fullPage: 'true' });
-			await stagedEmail.waitForTimeout(r15);
-			//await stagedEmail.close();
+		const stagedEmailHref = await page.$eval('a[href*="netlify.app"]', get => get.href);
+
+		if (stagedEmailHref) {
+
+			await page.goto(stagedEmailHref);
+			const currentURL = await page.url();
+			if (currentURL == stagedEmailHref) {
+				let LinksOnPage = await page.$$eval('a', get => get.map(ge => ge.getAttribute('href')));
+				console.log(LinksOnPAge);
+				let unique
+
+				logLinks(`Found  desktop links:\n`);
+				await page.waitForTimeout(1500);
+				logLinks(`Links found on desktop: ${LinksOnPage.length}: \n ${LinksOnPage.toString().replaceAll(',', ', \n')}`);
+				await page.waitForTimeout(r15);
+				await page.screenshot({ path: 'desktopview.png', fullPage: 'true' });
+				await page.waitForTimeout(r15);
+				await page.emulate(mobile);
+				await page.reload({ waitUntil: 'networkidle2' });
+				logLinks(`Found ${LinksOnPage.length} mobile links: `);
+				await page.waitForTimeout(1500);
+				logLinks(`Links on mobile: \n ${LinksOnPage.toString().replaceAll(',', ', \n')}`);
+				await page.waitForTimeout(r15);
+				await page.screenshot({ path: 'mobileview.png', fullPage: 'true' });
+				await page.emulate(mobile);
+				await page.goBack({ waitUntil: 'networkidle2' });
+
+			}
+
+
+
+
 		}
+
+
+
+
+
+		// let testingURL = await page.$eval('a[href*="netlify.app/"]', href => href.getAttribute('href'));
+		// if (testingURL) {
+		// 	console.log(testingURL);
+		// 	let stagedEmail = await browser.newPage();
+		// 	await stagedEmail.goto(testingURL, { waitUntil: 'networkidle2' });
+		// 	const linksOnPage = await stagedEmail.$$('')
+		// 	await stagedEmail.screenshot({ path: `testingURL.png`, fullPage: 'true' });
+		// 	await stagedEmail.waitForTimeout(r15);
+		//await stagedEmail.close();
+		//}
 		/*for (let i = 0; i < 25; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
