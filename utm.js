@@ -33,15 +33,14 @@ makeList();
 		await page.goto('https://gitlab.com/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/11', { waitUntil: 'networkidle2' });
 
 		const stagedEmailHref = await page.$eval('a[href*="netlify.app"]', get => get.href);
-
+		console.log(`stagedEmailHref: ${stagedEmailHref}`);
+		
 		if (stagedEmailHref) {
-
 			await page.goto(stagedEmailHref);
 			const currentURL = await page.url();
 			if (currentURL == stagedEmailHref) {
 				let LinksOnPage = await page.$$eval('a', get => get.map(ge => ge.getAttribute('href')));
 				console.log(LinksOnPAge);
-				let unique
 
 				logLinks(`Found  desktop links:\n`);
 				await page.waitForTimeout(1500);
