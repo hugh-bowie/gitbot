@@ -10,20 +10,19 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 	try {
 
 		//----initialize
-		const browser = await puppeteer.launch({ headless: false, args: ['--incognito'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
+		const browser = await puppeteer.launch({ headless: false, args: ['--start-in-incognito', '--window-size=1920,1047', '--window-position=0,0'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
 		const page = await browser.newPage();
 		//await page.emulate(des);
 
 		//---- redirect to login page
 		await page.goto('https://gitlab.com', { waitUntil: 'networkidle2' });
-		await page.waitForSelector('a[href="https://gitlab.com/users/sign_in"]');
-		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[aria-label="Login"]')]);
-		await page.waitForTimeout(r15);
+		await page.waitForSelector('a[data-nav="login"]');
+		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="login"]')]);
 
 		//----- login submit
 		await page.waitForSelector("#user_login", { visible: true });
-		await page.type("#user_login", process.env.GITUSR, { delay: r(50, 100) });
-		await page.type("#user_password", process.env.GITPW, { delay: r(50, 100) });
+		await page.type("#user_login", process.env.GITUSR);
+		await page.type("#user_password", process.env.GITPW);
 		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('[data-testid="sign-in-button"]')]);
 
 		//---- goto user activity
@@ -68,11 +67,11 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 
 		//BACK AND CLOSE BROWSER
 		await page.waitForTimeout(555);
-		await browser.close();
-		process.exit(1);
+		//await browser.close();
+		//process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		process.exit(1);
+		//process.exit(1);
 	}
 })();
 
