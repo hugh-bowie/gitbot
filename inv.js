@@ -15,9 +15,12 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 		//await page.emulate(des);
 
 		//---- redirect to login page
-		await page.goto('https://gitlab.com', { waitUntil: 'networkidle2' });
-		await page.waitForSelector('a[data-nav="login"]');
-		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="login"]')]);
+		await page.goto('https://gitlab.com', { waitUntil: 'networkidle0' });
+		await page.waitForTimeout(1111);
+		await page.goto('https://gitlab.com/users/sign_in', { waitUntil: 'networkidle0' });
+
+		// await page.waitForSelector('a[data-nav="login"]');
+		// await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="login"]')]);
 
 		//----- login submit
 		await page.waitForSelector("#user_login", { visible: true });
@@ -27,7 +30,7 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 
 		//---- goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 25; i++) {
+		for (let i = 0; i < 50; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
@@ -45,21 +48,23 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 			let dexA = commitRows[i].indexOf("|");
 			let dexB = commitRows[i].indexOf("#");
 			let dexC = timeStamps[i].lastIndexOf(",");
+			let dexPay = commitTitles[i].lastIndexOf("#");
 
 			if (dexA >= 0) {
 				let hrs = commitRows[i].substring(dexA).replace('|', '').replaceAll('i', '1').replaceAll('ov', '0.5');// returns all after |
 				let issue = issueNo[i];
 				let times = timeStamps[i].substring(0, dexC);
 				let body = commitTitles[i];
+				let payMe = commitTitles[i].substring(dexPay);
 				await page.waitForTimeout(111);
 
 				if (issue == undefined || body == undefined) {
 					issue = commitRows[i].substring(dexB, dexB + 4);
 					body = commitRows[i].substring(dexB + 4, commitRows.length);
-					log(`${times}\t${issue}\t${body}\tP3No\t${hrs}`);
+					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
 					await page.waitForTimeout(111);
 				} else {
-					log(`${times}\t${issue}\t${body}\tP3No\t${hrs}`);
+					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
 					await page.waitForTimeout(111);
 				}
 			}
@@ -67,11 +72,11 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 
 		//BACK AND CLOSE BROWSER
 		await page.waitForTimeout(555);
-		//await browser.close();
-		//process.exit(1);
+		// await browser.close();
+		// process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		//process.exit(1);
+		// process.exit(1);
 	}
 })();
 
