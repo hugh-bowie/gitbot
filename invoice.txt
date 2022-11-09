@@ -1,0 +1,121 @@
+Nov 9, 2022	#42	Dev QC - Ticket 14	Dev QC - Ticket 14	11
+Nov 8, 2022	#48	Dev QC - Ticket 22	Dev QC - Ticket 22	0.5
+Nov 8, 2022	#14	US-P-CZ-nraxp-2200106 Meaninful Data 1 WF#: 204615	#: 204615	0.5
+Nov 8, 2022	#14	US-P-CZ-nraxp-2200106 Meaninful Data 1 WF#: 204615	#: 204615	1
+Nov 8, 2022	#14	US-P-CZ-nraxp-2200106 Meaninful Data 1 WF#: 204615	#: 204615	1
+Nov 8, 2022	#46	Dev QC Ticket 16	Dev QC Ticket 16	0.5
+Nov 8, 2022	#48	Dev QC - Ticket 22	Dev QC - Ticket 22	0.5
+Nov 8, 2022	#46	Dev QC Ticket 16	Dev QC Ticket 16	0.5
+Nov 8, 2022	#45	Dev QC - Ticket 24	Dev QC - Ticket 24	0.5
+Nov 8, 2022	#44	Dev QC - Ticket 9	Dev QC - Ticket 9	0.5
+Nov 7, 2022	#71	Dev QC -  Ticket 34 Rheum Modular Email Template, WF#: 204616	#: 204616	0.5
+Nov 7, 2022	#12	US-P-CZ-nraxp-2200125 Meaningful Headline 3 WF#: 204615	#: 204615	0.5
+Nov 7, 2022	#40	Dev QC -Ticket 12	Dev QC -Ticket 12	0.5
+Nov 7, 2022	#39	Dev QC - Ticket 8	Dev QC - Ticket 8	0.5
+Nov 7, 2022	#38	Dev QC - Ticket 4	Dev QC - Ticket 4	0.5
+Nov 7, 2022	#71	Dev QC -  Ticket 34 Rheum Modular Email Template, WF#: 204616	#: 204616	0.5
+Nov 7, 2022	#38	Dev QC - Ticket 4	Dev QC - Ticket 4	0.5
+Nov 7, 2022	#43	Dev QC - Ticket 15	Dev QC - Ticket 15	1
+Nov 7, 2022	#43	Dev QC - Ticket 15	Dev QC - Ticket 15	1
+Nov 7, 2022	#38	Dev QC - Ticket 4	Dev QC - Ticket 4	1
+Nov 4, 2022	#3	US-P-CZ-nraxp-2200132 -  Study  Design Fragment 2 WF#: 204615	#: 204615	1
+Nov 4, 2022	#41	Dev QC - Ticket  13	Dev QC - Ticket  13	0.5
+Nov 4, 2022	#42	Dev QC - Ticket 14	Dev QC - Ticket 14	1
+Nov 3, 2022	#41	Dev QC - Ticket  13	Dev QC - Ticket  13	0.5
+Nov 3, 2022	#41	Dev QC - Ticket  13	Dev QC - Ticket  13	1
+Nov 3, 2022	#40	Dev QC -Ticket 12	Dev QC -Ticket 12	11
+Nov 1, 2022	#5	MR-08107-Veeva Engage RTE - WF#157311	#157311	11
+Nov 1, 2022	#5	MR-08107-Veeva Engage RTE - WF#157311	#157311	1
+Nov 1, 2022	#14	US-P-CZ-nraxp-2200106 Meaninful Data 1 WF#: 204615	#: 204615	1
+Nov 1, 2022	#14	US-P-CZ-nraxp-2200106 Meaninful Data 1 WF#: 204615	#: 204615	1
+Nov 1, 2022	#38	Dev QC - Ticket 4	Dev QC - Ticket 4	1
+Nov 1, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	1
+Nov 1, 2022	#22	US-P-CZ-nraxp-2200110 Durable Data 3 WF#: 204615	#: 204615	1
+Nov 1, 2022	#31	US-P-CZ-nraxp-2200118 Durable Headline 2 WF#: 204615	#: 204615	0.5
+Oct 31, 2022	#15	US-P-CZ-nraxp-2200105 Meaningful Data 2 WF#: 204615	#: 204615	11
+Oct 31, 2022	#35	US-P-CZ-nraxp-2200109 Durable Headline 4 WF#: 204615	#: 204615	1
+Oct 30, 2022	#12	EF-0027 - Digital Core brochure	EF-0027 - Digital Core brochure	1
+Oct 30, 2022	#6	🔥 🔥 🔥 US-P-CZ-nraxp-2200129 Rapid Headline 2 WF#: 204616	#: 204616	1
+Oct 30, 2022	#33	US-P-CZ-nraxp-2200112 Durable Data 1 WF#: 204615	#: 204615	1
+Oct 30, 2022	#9	🔥 🔥 🔥 US-P-CZ-nraxp-2200128 Rapid Headline 3 WF#: 204616	#: 204616	1
+Oct 30, 2022	#7	🔥 🔥 🔥 US-P-CZ-nraxp-2200147 Fair Balance Fragment WF#: 204615	#: 204615	1
+Oct 29, 2022	#19	1     US-P-CZ-nraxp-2200111 Durable Data 2 WF#: 204615	#: 204615	11
+Oct 28, 2022	#14	US-P-CZ-nraxp-2200106 Meaninful Data 1 WF#: 204615	#: 204615	1
+Oct 28, 2022	#32	US-P-CZ-nraxp-2200124 Safety Headline 1 WF#: 204615	#: 204615	1
+Oct 28, 2022	#12	US-P-CZ-nraxp-2200125 Meaningful Headline 3 WF#: 204615	#: 204615	1
+Oct 27, 2022	#10	US-P-CZ-nraxp-2200127 Meaningful Headline 1 WF#: 204615	#: 204615	0.5
+Oct 27, 2022	#35	US-P-CZ-nraxp-2200109 Durable Headline 4 WF#: 204615	#: 204615	0.5
+Oct 27, 2022	#15	US-P-CZ-nraxp-2200105 Meaningful Data 2 WF#: 204615	#: 204615	0.5
+Oct 27, 2022	#34	US-P-CZ-nraxp-2200117 Durable headline 3 WF#: 204615	#: 204615	11
+Oct 27, 2022	#31	US-P-CZ-nraxp-2200118 Durable Headline 2 WF#: 204615	#: 204615	0.5
+Oct 27, 2022	#22	US-P-CZ-nraxp-2200110 Durable Data 3 WF#: 204615	#: 204615	0.5
+Oct 27, 2022	#4	🔥 🔥 🔥  US-P-CZ-nraxp-2200130 Rapid Headline 1 WF#: 204616	#: 204616	0.5
+Oct 27, 2022	#6	🔥 🔥 🔥 US-P-CZ-nraxp-2200129 Rapid Headline 2 WF#: 204616	#: 204616	0.5
+Oct 27, 2022	#9	🔥 🔥 🔥 US-P-CZ-nraxp-2200128 Rapid Headline 3 WF#: 204616	#: 204616	0.5
+Oct 26, 2022	#22	US-P-CZ-nraxp-2200110 Durable Data 3 WF#: 204615	#: 204615	0.5
+Oct 25, 2022	#22	US-P-CZ-nraxp-2200110 Durable Data 3 WF#: 204615	#: 204615	0.5
+Oct 25, 2022	#13	🔥 🔥 🔥 US-P-CZ-nraxp-2200116 Rapid Data 1 WF#: 204615	#: 204615	0.5
+Oct 25, 2022	#36	US-P-CZ-nraxp-2200108 Safety Data 1 WF#: 204615	#: 204615	0.5
+Oct 25, 2022	#25	US-P-CZ-nraxp-2200107  Access Data 1 WF#: 204615	#: 204615	0.5
+Oct 25, 2022	#2	PM-US-AZ-0501 - Connecting HCPs to ASC - Logo and Legal Boilerplate Updates	PM-US-AZ-0501 - Connecting HCPs to ASC - Logo and Legal Boilerplate Updates	0.5
+Oct 25, 2022	#17	US-P-CZ-nraxp-2200104 Meaningful Data 3 WF#: 204615	#: 204615	0.5
+Oct 25, 2022	#2	PM-US-AZ-0501 - Connecting HCPs to ASC - Logo and Legal Boilerplate Updates	PM-US-AZ-0501 - Connecting HCPs to ASC - Logo and Legal Boilerplate Updates	0.5
+Oct 24, 2022	#13	🔥 🔥 🔥 US-P-CZ-nraxp-2200116 Rapid Data 1 WF#: 204615	#: 204615	111
+Oct 24, 2022	#2	🔥 🔥 🔥 US-P-CZ-nraxp-2200131 -  Study Design Fragment 1 WF #: 204615	#: 204615	111
+Oct 24, 2022	#3	US-P-CZ-nraxp-2200132 -  Study  Design Fragment 2 WF#: 204615	#: 204615	111
+Oct 24, 2022	#2	PM-US-AZ-0501 - Connecting HCPs to ASC - Logo and Legal Boilerplate Updates	PM-US-AZ-0501 - Connecting HCPs to ASC - Logo and Legal Boilerplate Updates	111
+Oct 24, 2022	#22	US-P-CZ-nraxp-2200110 Durable Data 3 WF#: 204615	#: 204615	111
+Oct 24, 2022	#19	1     US-P-CZ-nraxp-2200111 Durable Data 2 WF#: 204615	#: 204615	111
+Oct 24, 2022	#15	US-P-CZ-nraxp-2200105 Meaningful Data 2 WF#: 204615	#: 204615	111
+Oct 24, 2022	#14	US-P-CZ-nraxp-2200106 Meaninful Data 1 WF#: 204615	#: 204615	111
+Oct 24, 2022	#13	🔥 🔥 🔥 US-P-CZ-nraxp-2200116 Rapid Data 1 WF#: 204615	#: 204615	1
+Oct 24, 2022	#17	US-P-CZ-nraxp-2200104 Meaningful Data 3 WF#: 204615	#: 204615	0.5
+Oct 24, 2022	#3	US-P-CZ-nraxp-2200132 -  Study  Design Fragment 2 WF#: 204615	#: 204615	111
+Oct 24, 2022	#26	🔥 🔥 🔥 US-P-CZ-nraxp-2200114 Rapid Data 3 WF#: 204615	#: 204615	111
+Oct 24, 2022	#7	🔥 🔥 🔥 US-P-CZ-nraxp-2200147 Fair Balance Fragment WF#: 204615	#: 204615	111
+Oct 24, 2022	#2	🔥 🔥 🔥 US-P-CZ-nraxp-2200131 -  Study Design Fragment 1 WF #: 204615	#: 204615	1
+Oct 24, 2022	#36	US-P-CZ-nraxp-2200108 Safety Data 1 WF#: 204615	#: 204615	1
+Oct 24, 2022	#33	US-P-CZ-nraxp-2200112 Durable Data 1 WF#: 204615	#: 204615	1
+Oct 24, 2022	#19	1     US-P-CZ-nraxp-2200111 Durable Data 2 WF#: 204615	#: 204615	1
+Oct 24, 2022	#2	EF-0026 - Acquisition and Coding Information	EF-0026 - Acquisition and Coding Information	1
+Oct 24, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	1
+Oct 24, 2022	#13	🔥 🔥 🔥 US-P-CZ-nraxp-2200116 Rapid Data 1 WF#: 204615	#: 204615	1
+Oct 24, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	1
+Oct 24, 2022	#11	MR-08003-KAM Email 1 - 135687 - QC- RTE	MR-08003-KAM Email 1 - 135687 - QC- RTE	1
+Oct 24, 2022	#180	US-P-CZ-AS-2200110 OPM 8 Email Prior Authorization (WF # 78460) - Dev QC	# 78460) - Dev QC	1
+Oct 24, 2022	#5	MR-08107-Veeva Engage RTE - WF#157311	#157311	1
+Oct 24, 2022	#11	MR-08003-KAM Email 1 - 135687 - QC- RTE	MR-08003-KAM Email 1 - 135687 - QC- RTE	111
+Oct 21, 2022	#1	US-P-CZ-nraxp-2200138 Rheum Modular Email Template WF#: 204616	#: 204616	1
+Oct 21, 2022	#178	CIMZIAinoffice.com API Testing Site - Dev QC	CIMZIAinoffice.com API Testing Site - Dev QC	0.5
+Oct 21, 2022	#1	US-P-CZ-nraxp-2200138 Rheum Modular Email Template WF#: 204616	#: 204616	0.5
+Oct 21, 2022	#5	MR-08107-Veeva Engage RTE - WF#157311	#157311	0.5
+Oct 21, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	0.5
+Oct 21, 2022	#1	US-P-CZ-nraxp-2200138 Rheum Modular Email Template WF#: 204616	#: 204616	0.5
+Oct 20, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	0.5
+Oct 20, 2022	#1	US-P-CZ-nraxp-2200138 Rheum Modular Email Template WF#: 204616	#: 204616	11
+Oct 20, 2022	#4	NANETS Email Deployment Request - WFID: 187884	NANETS Email Deployment Request - WFID: 187884	1
+Oct 20, 2022	#4	NANETS Email Deployment Request - WFID: 187884	NANETS Email Deployment Request - WFID: 187884	1
+Oct 20, 2022	#4	NANETS Email Deployment Request - WFID: 187884	NANETS Email Deployment Request - WFID: 187884	1
+Oct 20, 2022	#180	US-P-CZ-AS-2200110 OPM 8 Email Prior Authorization (WF # 78460) - Dev QC	# 78460) - Dev QC	111
+Oct 20, 2022	#180	US-P-CZ-AS-2200110 OPM 8 Email Prior Authorization (WF # 78460) - Dev QC	# 78460) - Dev QC	111
+Oct 19, 2022	#4	NANETS Email Deployment Request - WFID: 187884	NANETS Email Deployment Request - WFID: 187884	1
+Oct 19, 2022	#5	MR-08107-Veeva Engage RTE - WF#157311	#157311	1111
+Oct 19, 2022	#128	CIMZIAinoffice.com API Testing Site	CIMZIAinoffice.com API Testing Site	11
+Oct 19, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	0.5
+Oct 19, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	11
+Oct 19, 2022	#4	ISI PDF Landing Page for Nalmefene Emails	ISI PDF Landing Page for Nalmefene Emails	11
+Oct 19, 2022	#179	US-P-CZ-AS-2200110 OPM Email Campaign # 8 (Prior Authorization) WF# 78460	# 78460	11
+Oct 19, 2022	#236	US-WAK-2200136 Consumer CRM Email C- Support Network (1 base version, 2 final versions) WF# 183400	# 183400	111
+Oct 19, 2022	#235	US-WAK-2200136 Consumer CRM Email C- Patient (1 base version, 2 final versions)	US-WAK-2200136 Consumer CRM Email C- Patient (1 base version, 2 final versions)	111
+Oct 19, 2022	#4	ISI PDF Landing Page for Nalmefene Emails	ISI PDF Landing Page for Nalmefene Emails	0.5
+Oct 19, 2022	#4	ISI PDF Landing Page for Nalmefene Emails	ISI PDF Landing Page for Nalmefene Emails	0.5
+Oct 19, 2022	#235	US-WAK-2200136 Consumer CRM Email C- Patient (1 base version, 2 final versions)	US-WAK-2200136 Consumer CRM Email C- Patient (1 base version, 2 final versions)	0.5
+Oct 19, 2022	#8	PRI-P-1143 PRIALT Email Follow-up #181859	#181859	111
+Oct 18, 2022	#179	US-P-CZ-AS-2200110 OPM Email Campaign # 8 (Prior Authorization) WF# 78460	# 78460	0.5
+Oct 18, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	111
+Oct 18, 2022	#235	US-WAK-2200136 Consumer CRM Email C- Patient (1 base version, 2 final versions)	US-WAK-2200136 Consumer CRM Email C- Patient (1 base version, 2 final versions)	1
+Oct 18, 2022	#236	US-WAK-2200136 Consumer CRM Email C- Support Network (1 base version, 2 final versions) WF# 183400	# 183400	1
+Oct 17, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	1
+Oct 17, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	0.5
+Oct 17, 2022	#1	MR-08003-KAM Email 1 - 135687	MR-08003-KAM Email 1 - 135687	1
+Oct 14, 2022	#236	US-WAK-2200136 Consumer CRM Email C- Support Network (1 base version, 2 final versions) WF# 183400	# 183400	111
