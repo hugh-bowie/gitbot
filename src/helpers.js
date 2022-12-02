@@ -8,6 +8,12 @@ function r(min, max) {
 	return ~~(Math.random() * (max - min) + min);
 }
 
+function clear() {
+	fs.truncate(`invoice.txt`, 0, () => {
+		console.log(`results cleared`);
+	});
+}
+
 //Function that logs timeStamp + data + \n
 function log(data) {
 
@@ -71,4 +77,4 @@ const desktop = {
 
 
 
-module.exports = { mobile, desktop, r, log, makeList, logLinks, r15, r23 };
+module.exports = { mobile, desktop, r, log, makeList, logLinks, clear, r15, r23 };

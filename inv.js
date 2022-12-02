@@ -3,8 +3,8 @@ const fs = require('fs');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-const { r, log, device, r15, r23 } = require('./src/helpers');
-
+const { r, log, clear, device, r15, r23 } = require('./src/helpers');
+clear();
 
 (async () => {
 	try {
