@@ -30,7 +30,7 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 
 		//---- goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 75; i++) {
+		for (let i = 0; i < 70; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
@@ -47,13 +47,13 @@ const { r, log, device, r15, r23 } = require('./src/helpers');
 		for (let i = 0; i < commitRows.length; i++) {
 			let dexA = commitRows[i].indexOf("|");
 			let dexB = commitRows[i].indexOf("#");
-			let dexC = timeStamps[i].lastIndexOf(",");
-			let dexPay = commitTitles[i].lastIndexOf("#");
+			/*let dexC = timeStamps[i].lastIndexOf(",");*/
+			let dexPay = commitTitles[i].indexOf("#");
 
 			if (dexA >= 0) {
 				let hrs = commitRows[i].substring(dexA).replace('|', '').replaceAll('i', '1').replaceAll('ov', '0.5');// returns all after |
 				let issue = issueNo[i];
-				let times = timeStamps[i].substring(0, dexC);
+				let times = timeStamps[i]/*.substring(0, dexC)*/;
 				let body = commitTitles[i];
 				let payMe = commitTitles[i].substring(dexPay);
 				await page.waitForTimeout(111);
