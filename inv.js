@@ -30,7 +30,7 @@ clear();
 
 		//---- goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 70; i++) {
+		for (let i = 0; i < 20; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
@@ -51,7 +51,13 @@ clear();
 			let dexPay = commitTitles[i].indexOf("#");
 
 			if (dexA >= 0) {
-				let hrs = commitRows[i].substring(dexA).replace('|', '').replaceAll('i', '1').replaceAll('ov', '0.5');// returns all after |
+				let hrs = commitRows[i].substring(dexA)
+					.replace(/\|\s?iiiii/g, '5')
+					.replace(/\|\s?iiii/g, '4')
+					.replace(/\|\s?iii/g, '3')
+					.replace(/\|\s?ii/g, '2')
+					.replace(/\|\s?i/g, '1')
+					.replace(/\|\s?ov/g, '0.5');
 				let issue = issueNo[i];
 				let times = timeStamps[i]/*.substring(0, dexC)*/;
 				let body = commitTitles[i];
