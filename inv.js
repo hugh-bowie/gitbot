@@ -25,12 +25,14 @@ clear();
 		//----- login submit
 		await page.waitForSelector("#user_login", { visible: true });
 		await page.type("#user_login", process.env.GITUSR);
+		await page.waitForTimeout(111);
 		await page.type("#user_password", process.env.GITPW);
+		await page.waitForTimeout(111);
 		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('[data-testid="sign-in-button"]')]);
 
 		//---- goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 20; i++) {
+		for (let i = 0; i < 75; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
