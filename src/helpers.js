@@ -1,6 +1,7 @@
 const fs = require('fs');
 const r23 = r(1500, 3000);
 const r15 = r(1000, 1500);
+const puppeteer = require('puppeteer');
 
 
 //random number function
@@ -75,6 +76,16 @@ const desktop = {
 	},
 };
 
+async function checkCookie() {
+
+	// Read the cookies from the file
+	
+
+	// Check the value of the "session" cookie
+	
+
+}
 
 
-module.exports = { mobile, desktop, r, log, makeList, logLinks, clear, r15, r23 };
+
+module.exports = { mobile, desktop, r, log, makeList, logLinks, clear, checkCookie, r15, r23 };

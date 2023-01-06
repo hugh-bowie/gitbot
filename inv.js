@@ -3,81 +3,116 @@ const fs = require('fs');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
-const { r, log, clear, device, r15, r23 } = require('./src/helpers');
+const { r, log, clear, checkCookie, device, r15, r23 } = require('./src/helpers');
 clear();
 
 (async () => {
 	try {
 
-		//----initialize
-		const browser = await puppeteer.launch({ headless: false, args: ['--start-in-incognito', '--window-size=1920,1047', '--window-position=0,0'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
+		//----initialize '--start-in-incognito',
+		const browser = await puppeteer.launch({ headless: false, args: ['--window-size=1920,1047', '--window-position=0,0'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
 		const page = await browser.newPage();
-		//await page.emulate(des);
-
-		//---- redirect to login page
 		await page.goto('https://gitlab.com', { waitUntil: 'networkidle0' });
 		await page.waitForTimeout(1111);
+
 		await page.goto('https://gitlab.com/users/sign_in', { waitUntil: 'networkidle0' });
 
-		// await page.waitForSelector('a[data-nav="login"]');
-		// await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="login"]')]);
+		//used for testing bad cookies
+		// const cookies = await page.cookies();
+		// const fs = require('fs');
+		// fs.writeFileSync('cookies.json', JSON.stringify(cookies));
 
-		//----- login submit
-		await page.waitForSelector("#user_login", { visible: true });
-		await page.type("#user_login", process.env.GITUSR);
-		await page.waitForTimeout(111);
-		await page.type("#user_password", process.env.GITPW);
-		await page.waitForTimeout(111);
-		await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('[data-testid="sign-in-button"]')]);
+		const cookies = JSON.parse(fs.readFileSync('cookies.json', 'utf8'));
+		if (cookies.length > 0) {
+			// Set the cookies to check on the page
+			for (const cookie of cookies) {
+				await page.setCookie(cookie);
+			}
+		}
 
-		//---- goto user activity
+		const sessionCookie = await page.cookies('https://gitlab.com/users/sign_in');
+		if (sessionCookie) {
+			// Check the expiration date of the cookie
+			const now = new Date();
+			if (!sessionCookie.expires > now.getTime()) {
+				console.log('Cookie is expired');
+				// call login function
+				await page.waitForSelector("#user_login", { visible: true });
+				await page.type("#user_login", process.env.GITUSR);
+				await page.waitForTimeout(111);
+				await page.type("#user_password", process.env.GITPW);
+				await page.waitForTimeout(111);
+				await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('[data-testid="sign-in-button"]')]);
+
+				const cookies = await page.cookies();
+				const fs = require('fs');
+				fs.writeFileSync('cookies.json', JSON.stringify(cookies));
+
+			} else {
+				console.log('Cookie is current and valid');
+				// Do something with the cookie
+
+			}
+		}
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 75; i++) {
+		for (let i = 0; i < 20; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(555);
 		}
 
-		//get all ccommit rows
-
-		let commitRows = await page.$$eval('li.commit > div', pub => pub.map(pu => pu.innerText)); // returns dc017fff · 1|00482 updated for MLR	15068
-		let commitTitles = await page.$$eval('div.commit-row-title a.gfm', tit => tit.map(ti => ti.getAttribute('title')));
-		let issueNo = await page.$$eval('div.commit-row-title a.gfm.gfm-issue', te => te.map(t => t.innerText));
-		let timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText)); // Mar 3, 2022, 3:13 PM
-		await page.waitForTimeout(111);
-
-		//log all commit rows if they have the '|' char
-		for (let i = 0; i < commitRows.length; i++) {
-			let dexA = commitRows[i].indexOf("|");
-			let dexB = commitRows[i].indexOf("#");
-			/*let dexC = timeStamps[i].lastIndexOf(",");*/
-			let dexPay = commitTitles[i].indexOf("#");
-
-			if (dexA >= 0) {
-				let hrs = commitRows[i].substring(dexA)
-					.replace(/\|\s?iiiii/g, '5')
-					.replace(/\|\s?iiii/g, '4')
-					.replace(/\|\s?iii/g, '3')
-					.replace(/\|\s?ii/g, '2')
-					.replace(/\|\s?i/g, '1')
-					.replace(/\|\s?ov/g, '0.5');
-				let issue = issueNo[i];
-				let times = timeStamps[i]/*.substring(0, dexC)*/;
-				let body = commitTitles[i];
-				let payMe = commitTitles[i].substring(dexPay);
+		// await page.waitForSelector('a[data-nav="login"]');
+		// await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle2' }), page.click('a[data-nav="login"]')]);
+		/*
+				//----- login submit
+				
+		
+				
+				//---- goto user activity
+				
+				/*
+				
+		
+				//get all ccommit rows
+		
+				let commitRows = await page.$$eval('li.commit > div', pub => pub.map(pu => pu.innerText)); // returns dc017fff · 1|00482 updated for MLR	15068
+				let commitTitles = await page.$$eval('div.commit-row-title a.gfm', tit => tit.map(ti => ti.getAttribute('title')));
+				let issueNo = await page.$$eval('div.commit-row-title a.gfm.gfm-issue', te => te.map(t => t.innerText));
+				let timeStamps = await page.$$eval('div.commit-row-title', time => time.map(tim => tim.parentNode.parentNode.parentNode.parentNode.children[0].innerText)); // Mar 3, 2022, 3:13 PM
 				await page.waitForTimeout(111);
-
-				if (issue == undefined || body == undefined) {
-					issue = commitRows[i].substring(dexB, dexB + 4);
-					body = commitRows[i].substring(dexB + 4, commitRows.length);
-					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
-					await page.waitForTimeout(111);
-				} else {
-					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
-					await page.waitForTimeout(111);
+		
+				//log all commit rows if they have the '|' char
+				for (let i = 0; i < commitRows.length; i++) {
+					let dexA = commitRows[i].indexOf("|");
+					let dexB = commitRows[i].indexOf("#");
+		
+					let dexPay = commitTitles[i].indexOf("#");
+		
+					if (dexA >= 0) {
+						let hrs = commitRows[i].substring(dexA)
+							.replace(/\|\s?iiiii/g, '5')
+							.replace(/\|\s?iiii/g, '4')
+							.replace(/\|\s?iii/g, '3')
+							.replace(/\|\s?ii/g, '2')
+							.replace(/\|\s?i/g, '1')
+							.replace(/\|\s?ov/g, '0.5');
+						let issue = issueNo[i];
+						let times = timeStamps[i];
+						let body = commitTitles[i];
+						let payMe = commitTitles[i].substring(dexPay);
+						await page.waitForTimeout(111);
+		
+						if (issue == undefined || body == undefined) {
+							issue = commitRows[i].substring(dexB, dexB + 4);
+							body = commitRows[i].substring(dexB + 4, commitRows.length);
+							log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
+							await page.waitForTimeout(111);
+						} else {
+							log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
+							await page.waitForTimeout(111);
+						}
+					}
 				}
-			}
-		}
-
+				*/
 		//BACK AND CLOSE BROWSER
 		await page.waitForTimeout(555);
 		// await browser.close();

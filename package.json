@@ -5,7 +5,8 @@
   "main": "y",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "go": "node inv.js"
+    "start": "node inv.js",
+    "get": "node getURL.js"
   },
   "repository": {
     "type": "git",
@@ -17,13 +18,13 @@
     "url": "https://github.com/hugh-bowie/gitbot/issues"
   },
   "homepage": "https://github.com/hugh-bowie/gitbot#readme",
-  
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.0.0",
     "node": "^17.7.1",
+    "node-fetch": "^2.6.7",
     "puppeteer": "^13.5.0",
     "puppeteer-extra": "^3.2.3",
     "puppeteer-extra-plugin-stealth": "^2.9.0"
   }
-
 }
