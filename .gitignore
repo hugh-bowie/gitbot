@@ -1,3 +1,4 @@
 node_modules
 .env
 invoice.txt
+config.json
