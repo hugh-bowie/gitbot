@@ -25,8 +25,8 @@ function log(data) {
 
 function logLinks(data) {
 
-	fs.appendFile('linklist.txt', `${data}\n`, () => {
-		console.log(`${data}\n`);
+	fs.appendFile('wineList.txt', `${data}\n`, () => {
+		//console.log(`${data}\n`);
 
 	});
 }
@@ -79,10 +79,10 @@ const desktop = {
 async function checkCookie() {
 
 	// Read the cookies from the file
-	
+
 
 	// Check the value of the "session" cookie
-	
+
 
 }
 
