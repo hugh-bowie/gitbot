@@ -21,9 +21,18 @@ const { r, logLinks, device, r15, r23 } = require('./src/helpers');
 		for (let i = 0; i < listA.length; i++) {
 			try {
 				await page.goto(listA[i], { waitUntil: 'networkidle0' });
-				const companywebsite = await page.$x('//*[contains(text(), "Web site")]', );
-				if (companywebsite) {
+				const companywebsite = await page.$eval('font a', el => el.getAttribute('href'));
+				if (companywebsite.length > 0) {
 					logLinks(companywebsite);
+					await page.goto(companywebsite, { waitUntil: 'networkidle0' });
+					let PageURL = await page.url();
+					try {
+						await page.goto(`${PageURL}contact`, { waitUntil: 'networkidle0' });
+						let companyAddress = await page.$eval('body', el => el.innerText);
+						logLinks(companyAddress);
+					} catch (error) {
+						logLinks(error);
+					}
 				}
 				logLinks(`no site found here: ${listA[i]}`);
 			} catch (error) {
