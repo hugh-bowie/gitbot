@@ -24,10 +24,8 @@ function log(data) {
 }
 
 function logLinks(data) {
-
-	fs.appendFile('wineList.txt', `${data}\n`, () => {
-		//console.log(`${data}\n`);
-
+	fs.appendFile(`wineList.txt`, `${data}\n`, () => {
+		console.log(`${data}`);
 	});
 }
 

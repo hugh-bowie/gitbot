@@ -9,36 +9,39 @@ const { r, logLinks, device, r15, r23 } = require('./src/helpers');
 	try {
 
 		//////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
-		const browser = await puppeteer.launch({ headless: false, args: ['--window-size=1920,1047', '--window-position=0,0'] });
+		const browser = await puppeteer.launch({ headless: false, args: ['--start-in-incognito', '--window-size=1920,1047', '--window-position=0,0'] });
 		const page = await browser.newPage();
 
 		await page.goto('https://www.winerelease.com/Winery_List/Alphabetical_Winery_List_with_Winery_Mailing_List_links-alphabetical.html', { waitUntil: 'networkidle0' });
 
 		const listA = await page.$$eval('li b  a', pub => pub.map(pu => pu.getAttribute('href')));
-		// console.log(listA.length);
-		// console.log(listA);
 
 		for (let i = 0; i < listA.length; i++) {
 			try {
-				await page.goto(listA[i], { waitUntil: 'networkidle0' });
-				const companywebsite = await page.$eval('font a', el => el.getAttribute('href'));
-				if (companywebsite.length > 0) {
+				await page.goto(listA[i]);
+
+				let companywebsite = await page.$eval('[target="_anotherwindow"]', el => el.getAttribute('href'));
+				if (companywebsite) {
 					logLinks(companywebsite);
-					await page.goto(companywebsite, { waitUntil: 'networkidle0' });
-					let PageURL = await page.url();
-					try {
-						await page.goto(`${PageURL}contact`, { waitUntil: 'networkidle0' });
-						let companyAddress = await page.$eval('body', el => el.innerText);
-						logLinks(companyAddress);
-					} catch (error) {
-						logLinks(error);
-					}
+					// await Promise.all([page.waitForNavigation({ waitUntil: 'networkidle0' }), page.click('[target="_anotherwindow"]')]);
+					// await page.waitForTimeout(r15);
+					// logLinks(currentPageURL);
+					// let currentPageURL = await page.url();
+
+
+					// await page.goto(`${currentPageURL}contact`, { waitUntil: 'networkidle0' });
+
+					// const addressRegex = new RegExp(/\d{ 1, 5}\s\w.\s(\b\w *\b\s) { 1, 2 } \w *\./);
+					// let companyAddress = await page.$eval('body', el => el.innerText.match(addressRegex));
+					// if (companyAddress) {
+					// 	logLinks(`company website: ${companywebsite} \n company address: ${companyAddress}`);
+					// }
+
 				}
-				logLinks(`no site found here: ${listA[i]}`);
+
 			} catch (error) {
+
 			}
-
-
 
 
 			// companywebsite.forEach(async () => {
@@ -112,9 +115,9 @@ const { r, logLinks, device, r15, r23 } = require('./src/helpers');
 		// }
 
 		//BACK AND CLOSE BROWSER
-		await page.waitForTimeout(555);
-		// await browser.close();
-		// process.exit(1);
+		//await page.waitForTimeout(555);
+		await browser.close();
+		//process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
 		// process.exit(1);
