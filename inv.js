@@ -27,9 +27,9 @@ clear();
 
 		//•••• goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 50; i++) {
+		for (let i = 0; i < 100; i++) {
 			await page.keyboard.press('PageDown');
-			await page.waitForTimeout(555);
+			await page.waitForTimeout(225);
 		}
 
 		//•••• get all ccommit rows
@@ -74,11 +74,11 @@ clear();
 
 		//BACK AND CLOSE BROWSER
 		await page.waitForTimeout(555);
-		// await browser.close();
-		// process.exit(1);
+		await browser.close();
+		process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		// process.exit(1);
+		process.exit(1);
 	}
 })();
 
