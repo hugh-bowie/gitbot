@@ -1,0 +1,90 @@
+Apr 5, 2023, 6:05 PM	#1	US-WAK-2300065 WAKIX Patient Resources Rep Triggered Email - 2023 Update	US-WAK-2300065 WAKIX Patient Resources Rep Triggered Email - 2023 Update	2
+Apr 5, 2023, 2:35 PM	#210	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	1
+Apr 5, 2023, 10:33 AM	#210	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	0.5
+Apr 4, 2023, 10:29 PM	#209	MAT-OPZ-01624 Patient Recruitment Email - AD_MAT-OPZ-01624	MAT-OPZ-01624 Patient Recruitment Email - AD_MAT-OPZ-01624	0.5
+Apr 4, 2023, 8:06 PM	#210	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	0.5
+Apr 4, 2023, 5:15 PM	#234	AE/ET-05622  z(CO Reps) XPD - Patient Education Digital Booklet Resource - WF: 287626 --  XP-06460	AE/ET-05622  z(CO Reps) XPD - Patient Education Digital Booklet Resource - WF: 287626 --  XP-06460	0.5
+Apr 4, 2023, 4:51 PM	#279	MAT-HEM-02895 - Resend Update	MAT-HEM-02895 - Resend Update	0.5
+Apr 4, 2023, 4:45 PM	#210	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	2
+Apr 4, 2023, 4:10 PM	#209	MAT-OPZ-01624 Patient Recruitment Email - AD_MAT-OPZ-01624	MAT-OPZ-01624 Patient Recruitment Email - AD_MAT-OPZ-01624	1
+Apr 4, 2023, 3:24 PM	#232	AE/ET-05613 - Medicare Part B RTE Ortho - WF: 329602 --MM-05880	AE/ET-05613 - Medicare Part B RTE Ortho - WF: 329602 --MM-05880	0.5
+Apr 4, 2023, 12:10 PM	#234	AE/ET-05622  z(CO Reps) XPD - Patient Education Digital Booklet Resource - WF: 287626 --  XP-06460	AE/ET-05622  z(CO Reps) XPD - Patient Education Digital Booklet Resource - WF: 287626 --  XP-06460	0.5
+Apr 4, 2023, 11:50 AM	#235	AE/ET-05624 z(CO Reps) Follow-up Product Acquisition IVA - WF: 287626 -- MM-05876	AE/ET-05624 z(CO Reps) Follow-up Product Acquisition IVA - WF: 287626 -- MM-05876	0.5
+Apr 4, 2023, 8:12 AM	#230	AE/ET-05612 - z(CO Reps) Medicare Part B RTE Ortho - WF: 329602 --MM-05880	AE/ET-05612 - z(CO Reps) Medicare Part B RTE Ortho - WF: 329602 --MM-05880	2
+Apr 3, 2023, 7:52 PM	#233	AE/ET-05615 - Medicare Part B RTE MH - WF: 329602 --MM-05881	AE/ET-05615 - Medicare Part B RTE MH - WF: 329602 --MM-05881	0.5
+Apr 3, 2023, 7:49 PM	#229	AE/ET-05614 - z(CO Reps) Medicare Part B RTE MH - WF: 329602 --MM-05881	AE/ET-05614 - z(CO Reps) Medicare Part B RTE MH - WF: 329602 --MM-05881	0.5
+Apr 3, 2023, 7:42 PM	#210	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	0.5
+Apr 3, 2023, 7:34 PM	#210	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	MAT-OPZ-01624 Patient Recruitment Email - VIT_MAT-OPZ-01624	0.5
+Apr 3, 2023, 4:56 PM	#229	AE/ET-05614 - z(CO Reps) Medicare Part B RTE MH - WF: 329602 --MM-05881	AE/ET-05614 - z(CO Reps) Medicare Part B RTE MH - WF: 329602 --MM-05881	|05
+Apr 3, 2023, 4:49 PM	#229	AE/ET-05614 - z(CO Reps) Medicare Part B RTE MH - WF: 329602 --MM-05881	AE/ET-05614 - z(CO Reps) Medicare Part B RTE MH - WF: 329602 --MM-05881	2
+Mar 28, 2023, 8:49 AM	#45	AUA 2023 RTE - Lunch/Dinner Invite (CORP-05756)	AUA 2023 RTE - Lunch/Dinner Invite (CORP-05756)	1
+Mar 27, 2023, 1:26 PM	#44	AUA 2023 RTE - One on One Encounters (CORP-05736)	AUA 2023 RTE - One on One Encounters (CORP-05736)	0.5
+Mar 27, 2023, 1:17 PM	#230	AE/ET-05612 - z(CO Reps) Medicare Part B RTE Ortho - WF: 329602 --MM-05880	AE/ET-05612 - z(CO Reps) Medicare Part B RTE Ortho - WF: 329602 --MM-05880	0.5
+Mar 27, 2023, 10:44 AM	#225	AE/ET-05604 Follow up - Digital + Video Assets - WF: 273483 -- XD-06828	AE/ET-05604 Follow up - Digital + Video Assets - WF: 273483 -- XD-06828	0.5
+Mar 27, 2023, 10:26 AM	#222	AE/ET-05602 z(CO Reps) XDC Consolidated Rep-Trigger Email - WF: 297400 --XD-06840	AE/ET-05602 z(CO Reps) XDC Consolidated Rep-Trigger Email - WF: 297400 --XD-06840	1
+Mar 24, 2023, 1:25 PM	#223	AE/ET-05605 z(CO Reps) - Follow up - Digital + Video Assets - WF: 273483 -- XD-06828	AE/ET-05605 z(CO Reps) - Follow up - Digital + Video Assets - WF: 273483 -- XD-06828	1
+Mar 24, 2023, 1:09 PM	#225	AE/ET-05604 Follow up - Digital + Video Assets - WF: 273483 -- XD-06828	AE/ET-05604 Follow up - Digital + Video Assets - WF: 273483 -- XD-06828	1
+Mar 24, 2023, 10:40 AM	#230	AE/ET-05612 - z(CO Reps) Medicare Part B RTE Ortho - WF: 329602 --MM-05880	AE/ET-05612 - z(CO Reps) Medicare Part B RTE Ortho - WF: 329602 --MM-05880	0.5
+Mar 24, 2023, 10:36 AM	#227	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	1
+Mar 24, 2023, 10:16 AM	#230	AE/ET-05612 - z(CO Reps) Medicare Part B RTE Ortho - WF: 329602 --MM-05880	AE/ET-05612 - z(CO Reps) Medicare Part B RTE Ortho - WF: 329602 --MM-05880	0.5
+Mar 23, 2023, 5:21 PM	#227	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	0.5
+Mar 23, 2023, 5:18 PM	#229	AE/ET-05614 - z(CO Reps) Medicare Part B RTE MH - WF: 329602 --MM-05881	AE/ET-05614 - z(CO Reps) Medicare Part B RTE MH - WF: 329602 --MM-05881	0.5
+Mar 23, 2023, 5:12 PM	#225	AE/ET-05604 Follow up - Digital + Video Assets - WF: 273483 -- XD-06828	AE/ET-05604 Follow up - Digital + Video Assets - WF: 273483 -- XD-06828	0.5
+Mar 23, 2023, 4:47 PM	#227	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	0.5
+Mar 23, 2023, 4:35 PM	#227	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	0.5
+Mar 23, 2023, 12:47 PM	#227	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	AE/ET-05610 z(CO Reps) XPD - Endo Advantage Office Starter Kit - WF: 287626 -- XP-06439	0.5
+Mar 23, 2023, 8:22 AM	#16	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	0.5
+Mar 22, 2023, 10:48 AM	#17	AE/ET-05600 - Request Edex Samples RTE - WF: 272702 --EX-05081	AE/ET-05600 - Request Edex Samples RTE - WF: 272702 --EX-05081	1
+Mar 21, 2023, 5:17 PM	#16	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	2
+Mar 21, 2023, 4:55 PM	#16	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	4
+Mar 21, 2023, 1:15 PM	#16	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	0.5
+Mar 20, 2023, 6:35 PM	#16	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	3
+Mar 20, 2023, 5:56 PM	#16	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	AE/ET-05601 - z(CO Reps) Request Edex Samples RTE - WF: 272702 --EX-05081	0.5
+Mar 20, 2023, 5:29 PM	#215	MAT-JAK-04289  Ms Faysman Early Intervention Sales Triggered Email	MAT-JAK-04289  Ms Faysman Early Intervention Sales Triggered Email	3
+Mar 20, 2023, 11:33 AM	#210	MAT-JAK-04287  MF Post-Hoc Pooled Analysis SVR Sales Triggered Email	MAT-JAK-04287  MF Post-Hoc Pooled Analysis SVR Sales Triggered Email	0.5
+Mar 20, 2023, 11:31 AM	#214	MAT-JAK-04288 cGVHD Response Rates Sales Triggered Email	MAT-JAK-04288 cGVHD Response Rates Sales Triggered Email	0.5
+Mar 17, 2023, 11:33 AM	#215	MAT-JAK-04289  Ms Faysman Early Intervention Sales Triggered Email	MAT-JAK-04289  Ms Faysman Early Intervention Sales Triggered Email	0.5
+Mar 17, 2023, 11:29 AM	#208	MAT-JAK-04282 Sales Triggered Email: Dr Fazal MF Branded Anemia	MAT-JAK-04282 Sales Triggered Email: Dr Fazal MF Branded Anemia	0.5
+Mar 17, 2023, 9:14 AM	#209	MAT-JAK-04283 Sales Triggered Email: Dr Fazal MF Branded Intervene Early	MAT-JAK-04283 Sales Triggered Email: Dr Fazal MF Branded Intervene Early	0.5
+Mar 17, 2023, 9:01 AM	#212	MAT-JAK-04365 Jakafi vs BAT RTE Email	MAT-JAK-04365 Jakafi vs BAT RTE Email	0.5
+Mar 17, 2023, 8:56 AM	#213	MAT-JAK-04366  Sales Triggered Email- Dr. Mesa Video MF Spleen & Survival Data	MAT-JAK-04366  Sales Triggered Email- Dr. Mesa Video MF Spleen & Survival Data	0.5
+Mar 17, 2023, 8:50 AM	#216	MAT-JAK-04290  Ms Faysman Managing Cytopenias Sales Triggered Email	MAT-JAK-04290  Ms Faysman Managing Cytopenias Sales Triggered Email	0.5
+Mar 15, 2023, 12:32 PM	#218	MAT-JAK-04368  Dr Munshi SR aGVHD Sales-Triggered Email	MAT-JAK-04368  Dr Munshi SR aGVHD Sales-Triggered Email	0.5
+Mar 14, 2023, 4:33 PM	#202	MAT-JAK-04259 -  cGVHD Branded FFS RTE (Without Now Approved)(Repl MAT-JAK-03675)	MAT-JAK-04259 -  cGVHD Branded FFS RTE (Without Now Approved)(Repl MAT-JAK-03675)	0.5
+Mar 14, 2023, 4:24 PM	#190	MAT-JAK-04284 - Sales Triggered Email- Dr. K Video PV Branded- Hct Control (Replace MAT-JAK-03939)	MAT-JAK-04284 - Sales Triggered Email- Dr. K Video PV Branded- Hct Control (Replace MAT-JAK-03939)	0.5
+Mar 14, 2023, 3:19 PM	#206	US-N-DA-RH-2200078 - RheuMuseum Manifestations Email WF 284600	US-N-DA-RH-2200078 - RheuMuseum Manifestations Email WF 284600	0.5
+Mar 14, 2023, 9:03 AM	#209	Dev QC US-N-DA-RH-2200077 - RheuMuseum Pathobiology Email WF 284980	Dev QC US-N-DA-RH-2200077 - RheuMuseum Pathobiology Email WF 284980	0.5
+Mar 13, 2023, 9:27 PM	#207	US-N-DA-RH-2200077 - RheuMuseum Pathobiology Email WF 284980	US-N-DA-RH-2200077 - RheuMuseum Pathobiology Email WF 284980	2
+Mar 13, 2023, 8:53 PM	#197	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	2
+Mar 13, 2023, 6:02 PM	#202	MAT-JAK-04259 -  cGVHD Branded FFS RTE (Without Now Approved)(Repl MAT-JAK-03675)	MAT-JAK-04259 -  cGVHD Branded FFS RTE (Without Now Approved)(Repl MAT-JAK-03675)	2
+Mar 9, 2023, 9:38 AM	#201	MAT-JAK-04253 - Sales Triggered Email: GVHD REACH2 Failure-Free Survival (Rep MAT-JAK-03111)	MAT-JAK-04253 - Sales Triggered Email: GVHD REACH2 Failure-Free Survival (Rep MAT-JAK-03111)	0.5
+Mar 8, 2023, 2:52 PM	#203	Dev QC - US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	Dev QC - US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	1
+Mar 8, 2023, 10:34 AM	#206	US-N-DA-RH-2200078 - RheuMuseum Manifestations Email WF 284600	US-N-DA-RH-2200078 - RheuMuseum Manifestations Email WF 284600	0.5
+Mar 8, 2023, 8:50 AM	#197	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	1
+Mar 8, 2023, 1:21 AM	#196	US-P-CZ-AS-2200234 Intro to Cimzia Workfront# 174213	# 174213	1
+Mar 7, 2023, 4:03 PM	#206	US-N-DA-RH-2200078 - RheuMuseum Manifestations Email WF 284600	US-N-DA-RH-2200078 - RheuMuseum Manifestations Email WF 284600	1
+Mar 3, 2023, 3:16 PM	#206	US-N-DA-RH-2200078 - RheuMuseum Manifestations Email WF 284600	US-N-DA-RH-2200078 - RheuMuseum Manifestations Email WF 284600	1
+Mar 1, 2023, 11:45 AM	#196	US-P-CZ-AS-2200234 Intro to Cimzia Workfront# 174213	# 174213	0.5
+Mar 1, 2023, 11:39 AM	#194	US-N-DA-RH-2200071 - RheuMuseum SGE Welcome Email WF 242151	US-N-DA-RH-2200071 - RheuMuseum SGE Welcome Email WF 242151	0.5
+Mar 1, 2023, 11:30 AM	#194	US-N-DA-RH-2200071 - RheuMuseum SGE Welcome Email WF 242151	US-N-DA-RH-2200071 - RheuMuseum SGE Welcome Email WF 242151	0.5
+Mar 1, 2023, 11:27 AM	#193	US-P-CZ-AS-2200239 Cimplicity CRM 7 - Program Q+A WF# 177352	# 177352	0.5
+Mar 1, 2023, 11:20 AM	#197	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	0.5
+Mar 1, 2023, 10:45 AM	#197	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	0.5
+Mar 1, 2023, 10:41 AM	#197	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	0.5
+Mar 1, 2023, 10:38 AM	#192	US-P-CZ-AS-2200233_Cimplicity CRM 1 - Sign-up Welcome Message WF# 176900	# 176900	0.5
+Mar 1, 2023, 10:32 AM	#196	US-P-CZ-AS-2200234 Intro to Cimzia Workfront# 174213	# 174213	0.5
+Feb 24, 2023, 1:21 PM	#203	Dev QC - US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	Dev QC - US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150	0.5
+Feb 23, 2023, 12:51 PM	#193	US-P-CZ-AS-2200239 Cimplicity CRM 7 - Program Q+A WF# 177352	# 177352	0.5
+Feb 22, 2023, 12:51 PM	#65	PsA Modules - ALL FRAGMENTS	PsA Modules - ALL FRAGMENTS	0.5
+Feb 22, 2023, 11:12 AM	#193	US-P-CZ-AS-2200239 Cimplicity CRM 7 - Program Q+A WF# 177352	# 177352	1
+Feb 20, 2023, 10:57 AM	#60	Dev QC Load - Ticket 9 WF 228093	Dev QC Load - Ticket 9 WF 228093	1
+Feb 16, 2023, 4:41 PM	#61	Dev QC Load - Ticket 10 WF 228093	Dev QC Load - Ticket 10 WF 228093	1
+Feb 16, 2023, 4:05 PM	#60	Dev QC Load - Ticket 9 WF 228093	Dev QC Load - Ticket 9 WF 228093	1
+Feb 16, 2023, 11:02 AM	#192	US-P-CZ-AS-2200233_Cimplicity CRM 1 - Sign-up Welcome Message WF# 176900	# 176900	0.5
+Feb 14, 2023, 2:49 PM	#204	Dev QC US-P-CZ-AS-2200234 Intro to Cimzia Workfront# 174213	# 174213	1
+Feb 14, 2023, 7:55 AM	#62	Dev QC Load - Ticket 11 WF 228093	Dev QC Load - Ticket 11 WF 228093	1
+Feb 13, 2023, 3:24 PM	#202	Dev QC US-P-CZ-AS-2200239 Cimplicity CRM 7 - Program Q+A WF177352	Dev QC US-P-CZ-AS-2200239 Cimplicity CRM 7 - Program Q+A WF177352	0.5
+Feb 13, 2023, 8:05 AM	#60	Dev QC Load - Ticket 9 WF 228093	Dev QC Load - Ticket 9 WF 228093	4
+Feb 8, 2023, 3:37 PM	#60	Dev QC Load - Ticket 9 WF 228093	Dev QC Load - Ticket 9 WF 228093	1
+Feb 8, 2023, 3:09 PM	#59	Dev QC Load - Ticket 8 WF 228093	Dev QC Load - Ticket 8 WF 228093	1
+Feb 8, 2023, 2:50 PM	#57	Dev QC Load - Ticket 6 WF 228093	Dev QC Load - Ticket 6 WF 228093	1

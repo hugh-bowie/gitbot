@@ -9,13 +9,13 @@ clear();
 (async () => {
 	try {
 
-		//••••initialize '--start-in-incognito',
-		const browser = await puppeteer.launch({ headless: false, args: ['--window-size=1920,1047', '--window-position=0,0'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
+		//••••initialize
+		const browser = await puppeteer.launch({ headless: false, args: ['--window-size=1920,1047', '--window-position=0,0', '--start-in-incognito'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
 		const page = await browser.newPage();
-		await page.goto('https://gitlab.com', { waitUntil: 'networkidle0' });
+		await page.goto('https://gitlab.com', { waitUntil: 'networkidle2' });
 		await page.waitForTimeout(1111);
 
-		await page.goto('https://gitlab.com/users/sign_in', { waitUntil: 'networkidle0' });
+		await page.goto('https://gitlab.com/users/sign_in', { waitUntil: 'networkidle2' });
 
 		//••••- login submit
 		await page.waitForSelector("#user_login", { visible: true });
