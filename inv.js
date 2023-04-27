@@ -18,7 +18,7 @@ clear();
 		await page.goto('https://gitlab.com/users/sign_in', { waitUntil: 'networkidle2' });
 
 		//••••- login submit
-		await page.waitForSelector("#user_login", { visible: true });
+		await page.waitForSelector("#user_login");
 		await page.type("#user_login", process.env.GITUSR);
 		await page.waitForTimeout(111);
 		await page.type("#user_password", process.env.GITPW);
@@ -74,11 +74,11 @@ clear();
 
 		//BACK AND CLOSE BROWSER
 		await page.waitForTimeout(555);
-		await browser.close();
-		process.exit(1);
+		// await browser.close();
+		// process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		process.exit(1);
+		// process.exit(1);
 	}
 })();
 
