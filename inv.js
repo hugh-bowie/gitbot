@@ -27,9 +27,9 @@ clear();
 
 		//•••• goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 100; i++) {
+		for (let i = 0; i < 50; i++) {
 			await page.keyboard.press('PageDown');
-			await page.waitForTimeout(225);
+			await page.waitForTimeout(100);
 		}
 
 		//•••• get all ccommit rows
@@ -40,11 +40,16 @@ clear();
 		await page.waitForTimeout(111);
 
 		//log all commit rows if they have the '|' char
+		
 		for (let i = 0; i < commitRows.length; i++) {
+			const invoiceArray = [];
 			let dexA = commitRows[i].indexOf("|");
 			let dexB = commitRows[i].indexOf("#");
 
-			let dexPay = commitTitles[i].indexOf("#");
+			// let dexPay = commitTitles[i].indexOf("#");
+			const regex = /(wf\:?\s?\d{5,6})/ig;
+			
+			let workForceNumber = commitTitles[i].search(regex);
 
 			if (dexA >= 0) {
 				let hrs = commitRows[i].substring(dexA)
@@ -57,28 +62,29 @@ clear();
 				let issue = issueNo[i];
 				let times = timeStamps[i];
 				let body = commitTitles[i];
-				let payMe = commitTitles[i].substring(dexPay);
+				let payMe = commitTitles[i].substring(workForceNumber);
 				await page.waitForTimeout(111);
 
 				if (issue == undefined || body == undefined) {
 					issue = commitRows[i].substring(dexB, dexB + 4);
 					body = commitRows[i].substring(dexB + 4, commitRows.length);
-					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
+					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`); 
 					await page.waitForTimeout(111);
 				} else {
 					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
 					await page.waitForTimeout(111);
 				}
+				
 			}
 		}
 
 		//BACK AND CLOSE BROWSER
 		await page.waitForTimeout(555);
-		// await browser.close();
-		// process.exit(1);
+		await browser.close();
+		process.exit(1);
 	} catch (e) {
 		console.log(`--ERROR--ERROR--ERROR--ERROR\n${e}\nERROR--ERROR--ERROR--ERROR`);
-		// process.exit(1);
+		process.exit(1);
 	}
 })();
 
