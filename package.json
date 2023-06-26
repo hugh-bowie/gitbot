@@ -5,8 +5,9 @@
   "main": "y",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node inv.js",
-    "get": "node getURL.js"
+    "go": "node inv.js",
+    "get": "node getURL.js",
+    "invert": "tail -r invoice.txt > reversed.txt"
   },
   "repository": {
     "type": "git",
@@ -19,14 +20,12 @@
   },
   "homepage": "https://github.com/hugh-bowie/gitbot#readme",
   "dependencies": {
-    "axios": "^1.2.3",
     "cheerio": "^1.0.0-rc.12",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.1.0",
     "google-spreadsheet": "^3.3.0",
-    "node": "^20.2.0",
-    "node-fetch": "^2.6.7",
-    "npm": "^9.6.7",
-    "puppeteer": "^20.2.1",
+    "node": "^20.3.1",
+    "npm": "^9.7.2",
+    "puppeteer": "^20.7.3",
     "puppeteer-extra": "^3.2.3",
     "puppeteer-extra-plugin-stealth": "^2.9.0"
   }

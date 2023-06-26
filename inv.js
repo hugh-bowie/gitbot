@@ -27,7 +27,7 @@ clear();
 
 		//•••• goto user activity
 		await page.goto('https://gitlab.com/users/' + process.env.GITUSR + '/activity', { waitUntil: 'networkidle2' });
-		for (let i = 0; i < 50; i++) {
+		for (let i = 0; i < 25; i++) {
 			await page.keyboard.press('PageDown');
 			await page.waitForTimeout(100);
 		}
@@ -40,7 +40,7 @@ clear();
 		await page.waitForTimeout(111);
 
 		//log all commit rows if they have the '|' char
-		
+
 		for (let i = 0; i < commitRows.length; i++) {
 			const invoiceArray = [];
 			let dexA = commitRows[i].indexOf("|");
@@ -48,8 +48,8 @@ clear();
 
 			// let dexPay = commitTitles[i].indexOf("#");
 			const regex = /(wf\:?\s?\d{5,6})/ig;
-			
-			let workForceNumber = commitTitles[i].search(regex);
+
+			let workForceNumber = commitTitles[i].match(regex);
 
 			if (dexA >= 0) {
 				let hrs = commitRows[i].substring(dexA)
@@ -65,16 +65,17 @@ clear();
 				let payMe = commitTitles[i].substring(workForceNumber);
 				await page.waitForTimeout(111);
 
-				if (issue == undefined || body == undefined) {
+				if (issue == undefined || body == undefined || payMe == undefined || payMe == null) {
 					issue = commitRows[i].substring(dexB, dexB + 4);
 					body = commitRows[i].substring(dexB + 4, commitRows.length);
-					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`); 
+					payMe = `no wf found`;
+					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
 					await page.waitForTimeout(111);
 				} else {
 					log(`${times}\t${issue}\t${body}\t${payMe}\t${hrs}`);
 					await page.waitForTimeout(111);
 				}
-				
+
 			}
 		}
 
@@ -87,6 +88,7 @@ clear();
 		process.exit(1);
 	}
 })();
+
 
 
 // let str = "Don’t be jelly • . .• .•. #dontbejelly #peanutbutterjellytime #peanutbutter #peanutbutterjelly #easylunch #breakfast #foodie #pbj #peanutbutteraddict #peanutbutterandjelly #aesthetic #almondbutterflavor #almondbuttertoast #breakfastideas #cooking101 #cookinghacks #cookingmom #cookingtips #diylifehacks #easylunchboxes #easylunchideas #easylunchrecipes #easyrecipesathome #eatlover #foodblogger #foodhacks #foodiesofinstagram #foodporn #dropsquad #onlydwightschrute";
