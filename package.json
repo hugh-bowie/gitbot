@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "go": "node inv.js",
     "get": "node getURL.js",
-    "invert": "tail -r invoice.txt > reversed.txt"
+    "reverse": "tail -r invoice.txt > reversed.txt"
   },
   "repository": {
     "type": "git",
