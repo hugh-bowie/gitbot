@@ -58,7 +58,8 @@ clear();
 					.replace(/\|\s?iii/g, '3')
 					.replace(/\|\s?ii/g, '2')
 					.replace(/\|\s?i/g, '1')
-					.replace(/\|\s?ov/g, '0.5');
+					.replace(/\|\s?ov/g, '0.5')
+					.replace(/\|\s?5/g, '5');
 				let issue = issueNo[i];
 				let times = timeStamps[i];
 				let body = commitTitles[i];
