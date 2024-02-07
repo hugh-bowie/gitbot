@@ -15,10 +15,22 @@ function clear() {
 	});
 }
 
+function convertToNormalTime(isoTimestamp) {
+	const date = new Date(isoTimestamp);
+	return date.toLocaleString(); // Converts to local time format
+}
+
 //Function that logs timeStamp + data + \n
 function log(data) {
 
 	fs.appendFile(`invoice.txt`, `${data}\n`, () => {
+		console.log(`${data}`);
+	});
+}
+
+function gitlog(data) {
+
+	fs.appendFile(`dfa-invoice.txt`, `${data}\n`, () => {
 		console.log(`${data}`);
 	});
 }
@@ -86,4 +98,4 @@ async function checkCookie() {
 
 
 
-module.exports = { mobile, desktop, r, log, makeList, logLinks, clear, checkCookie, r15, r23 };
+module.exports = { mobile, desktop, r, convertToNormalTime, gitlog, log, makeList, logLinks, clear, checkCookie, r15, r23 };

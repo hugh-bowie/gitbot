@@ -1,0 +1,101 @@
+Date	Issue Number	Project Details	P3 WF No	Hrs
+1/4/2023, 11:02:35 AM	[object Object]		#25 ER updates	pushed to	39768785	2325246665			
+1/4/2023, 11:08:06 AM	[object Object]		#25 ER updated index to all	pushed to	39768785	2325259689			
+1/4/2023, 11:09:05 AM		🔥🔥🔥 US-P-CZ-PSO-2200168 CIMZIA Email Template WF# 228093		commented on	39768785	2325261825	1227786649	1227786649	Note
+1/4/2023, 11:11:36 AM		Dev QC - US-P-CZ-PSO-2200168 - Email Template WF# 228093		commented on	39768785	2325267540	1227789737	1227789737	Note
+1/4/2023, 11:21:33 AM	[object Object]		#65 check edit |ov	pushed to	39768785	2325289275			
+1/4/2023, 11:40:47 AM		Dev QC - US-P-CZ-PSO-2200168 - Email Template WF# 228093		commented on	39768785	2325331708	1227827728	1227827728	Note
+1/4/2023, 11:55:47 AM	[object Object]		#65 er updates |i	pushed to	39768785	2325363629			
+1/4/2023, 11:57:59 AM	[object Object]		#65 er updatd	pushed to	39768785	2325368029			
+1/4/2023, 11:59:20 AM		PsA Modules - ALL FRAGMENTS		commented on	39768785	2325370596	1227856020	1227856020	Note
+1/4/2023, 3:07:09 PM	[object Object]		#25 fix all permutation	pushed to	39768785	2325687801			
+1/4/2023, 3:08:47 PM	[object Object]		#25 fix all permutation	pushed to	39768785	2325690378			
+1/4/2023, 3:09:35 PM		🔥🔥🔥 US-P-CZ-PSO-2200168 CIMZIA Email Template WF# 228093		commented on	39768785	2325691548	1228058354	1228058354	Note
+1/4/2023, 3:14:45 PM	[object Object]		#66 er fix |i	pushed to	39768785	2325700073			
+1/4/2023, 3:17:49 PM		PsA Manifestation Modules - ALL FRAGMENTS		commented on	39768785	2325707331	1228075658	1228075658	Note
+1/4/2023, 4:43:19 PM	[object Object]		#25 font size swap |i	pushed to	39768785	2325839681			
+1/4/2023, 4:44:33 PM		🔥🔥🔥 US-P-CZ-PSO-2200168 CIMZIA Email Template WF# 228093		commented on	39768785	2325841268	1228211938	1228211938	Note
+1/5/2023, 9:41:09 AM	[object Object]		#65 ER fix |i	pushed to	39768785	2327384800			
+1/5/2023, 9:42:29 AM		PsA Modules - ALL FRAGMENTS		commented on	39768785	2327388178	1229051512	1229051512	Note
+1/5/2023, 9:52:52 AM	[object Object]		Sep all updated frags for xfer to sfmc |i	pushed to	39768785	2327414874			
+1/5/2023, 10:09:01 AM	[object Object]		#65 |ov	pushed to	39768785	2327456938			
+1/5/2023, 10:10:56 AM		PsA Modules - ALL FRAGMENTS		commented on	39768785	2327461628	1229092920	1229092920	Note
+1/5/2023, 10:28:24 AM		Email Testing - Single Data Fragment		commented on	39768785	2327503907	1229116858	1229116858	Note
+1/5/2023, 10:29:52 AM		Email Testing - Double Data Module		commented on	39768785	2327507037	1229118608	1229118608	Note
+1/5/2023, 11:25:13 AM	[object Object]		#25 updated co-letter across all permutations |i	pushed to	39768785	2327645861			
+1/5/2023, 11:26:18 AM		🔥🔥🔥 US-P-CZ-PSO-2200168 CIMZIA Email Template WF# 228093		commented on	39768785	2327648171	1229223129	1229223129	DiscussionNote
+1/5/2023, 3:49:35 PM		Email Testing - Double Data Module		commented on	39768785	2328073982	1229516443	1229516443	Note
+1/5/2023, 3:57:40 PM		Email Testing - Single Data Fragment		commented on	39768785	2328083942	1229521380	1229521380	DiscussionNote
+1/6/2023, 12:27:04 PM		Email Testing - Single Data Fragment		commented on	39768785	2329831891	1230521340	1230521340	DiscussionNote
+1/6/2023, 12:39:47 PM		Email Testing - Double Data Module		commented on	39768785	2329850254	1230531757	1230531757	Note
+1/6/2023, 2:39:45 PM	[object Object]		#68 ER fixs |i	pushed to	39768785	2330010846			
+1/6/2023, 2:46:15 PM	[object Object]		#68 er fixs	pushed to	39768785	2330018631			
+1/6/2023, 2:47:19 PM		Email Testing - Double Data Module		commented on	39768785	2330019844	1230637631	1230637631	Note
+1/6/2023, 3:33:07 PM		Email Testing - Double Data Module		commented on	39768785	2330075069	1230674722	1230674722	Note
+1/8/2023, 1:39:11 PM	[object Object]		#189 238 rebuild |iiii	pushed to	13016320	2331230302			
+1/8/2023, 1:41:57 PM	[object Object]		#189 fix class	pushed to	13016320	2331231551			
+1/8/2023, 1:47:58 PM	[object Object]		#189 fix class	pushed to	13016320	2331234098			
+1/8/2023, 1:51:44 PM		US-P-CZ-AS-2200238 Cimplicity Email Number 6- Trusted Nurse Support WF#177239		commented on	13016320	2331235631	1231171871	1231171871	Note
+1/8/2023, 1:53:41 PM		US-P-CZ-AS-2200237 Cimplicity Covered CRM Email #5_WF#177126		commented on	13016320	2331236358	1231172090	1231172090	Note
+1/8/2023, 4:13:35 PM	[object Object]		#192 build |iiii	pushed to	13016320	2331297962			
+1/8/2023, 4:45:51 PM		US-P-CZ-AS-2200233_Cimplicity CRM 1 - Sign-up Welcome Message WF# 176900		commented on	13016320	2331310758	1231208394	1231208394	Note
+1/8/2023, 4:52:56 PM	[object Object]		#192 utms	pushed to	13016320	2331313754			
+1/8/2023, 5:02:13 PM	[object Object]		#189 add utms	pushed to	13016320	2331317307			
+1/8/2023, 8:24:52 PM	[object Object]		#193 mjml full build |iiii	pushed to	13016320	2331399480			
+1/8/2023, 8:25:41 PM		US-P-CZ-AS-2200239 Cimplicity CRM 7 - Program Q+A WF# 177352		commented on	13016320	2331399828	1231248688	1231248688	Note
+1/8/2023, 8:29:18 PM	[object Object]		#193 spacing	pushed to	13016320	2331401481			
+1/8/2023, 8:41:47 PM		US-P-CZ-AS-2200235 Intro to Cimplicity TalktoUCB WF# 173200		commented on	13016320	2331407755	1231253173	1231253173	Note
+1/9/2023, 5:33:43 PM	[object Object]		#191 DEV QC |iii	pushed to	13016320	2333751209			
+1/9/2023, 5:42:45 PM	[object Object]		#191 DEV QC images fix	pushed to	13016320	2333761530			
+1/9/2023, 6:07:34 PM		DEV QC: US-P-CZ-AS-2200236 Cimplicity CRM 4- Prior Authorization WF 177013		commented on	13016320	2333788035	1233059617	1233059617	Note
+1/9/2023, 6:34:10 PM	[object Object]		#192 update images |i	pushed to	13016320	2333815901			
+1/9/2023, 6:50:12 PM	[object Object]		#192 update isi	pushed to	13016320	2333829465			
+1/9/2023, 7:00:15 PM	[object Object]		#192 update classes	pushed to	13016320	2333837993			
+1/10/2023, 12:39:16 PM	[object Object]		#195 imp images |i	pushed to	13016320	2335951359			
+1/10/2023, 12:56:44 PM	[object Object]		#195 rename function	pushed to	13016320	2335982157			
+1/10/2023, 3:50:41 PM		DEV QC: US-P-CZ-AS-2200236 Cimplicity CRM 4- Prior Authorization WF 177013		commented on	13016320	2336255332	1234761974	1234761974	Note
+1/10/2023, 6:38:39 PM	[object Object]		#191 DEV qc fixs |ii	pushed to	13016320	2336456463			
+1/10/2023, 8:04:07 PM		DEV QC: US-P-CZ-AS-2200236 Cimplicity CRM 4- Prior Authorization WF 177013		commented on	13016320	2336528871	1234948520	1234948520	Note
+1/11/2023, 10:16:54 AM	[object Object]		#195 full build |iiii	pushed to	13016320	2338262896			
+1/11/2023, 10:26:13 AM	[object Object]		#195 links	pushed to	13016320	2338289172			
+1/11/2023, 10:27:05 AM		US-P-CZ-AS-2200235 Intro to Cimplicity TalktoUCB WF# 173200		commented on	13016320	2338291641	1235942792	1235942792	Note
+1/11/2023, 11:47:17 AM	[object Object]		#194 mjml build |iii	pushed to	13016320	2338508635			
+1/11/2023, 11:48:24 AM		US-N-DA-RH-2200071 - RheuMuseum SGE Welcome Email WF 242151		commented on	13016320	2338511740	1236079955	1236079955	Note
+1/11/2023, 6:57:21 PM	[object Object]		#191 top align fix |i	pushed to	13016320	2339135437			
+1/11/2023, 7:01:21 PM		DEV QC: US-P-CZ-AS-2200236 Cimplicity CRM 4- Prior Authorization WF 177013		commented on	13016320	2339138711	1236439459	1236439459	Note
+1/11/2023, 7:38:14 PM	[object Object]		#195 top align fix |i	pushed to	13016320	2339168635			
+1/12/2023, 1:58:32 AM	[object Object]		#190	pushed to	13016320	2339555017			
+1/12/2023, 9:17:21 AM	[object Object]		#190 mjml mobil add |i	pushed to	13016320	2340726381			
+1/12/2023, 9:35:16 AM	[object Object]		#190 spacing fix |ov	pushed to	13016320	2340789868			
+1/12/2023, 9:37:18 AM		US-P-CZ-AS-2200237 Cimplicity Covered CRM Email #5_WF#177126		commented on	13016320	2340796256	1237356743	1237356743	Note
+1/12/2023, 1:10:51 PM	[object Object]		#190 isi fix acoss all	pushed to	13016320	2341326561			
+1/12/2023, 1:15:51 PM	[object Object]		#190 isi fix acoss all	pushed to	13016320	2341334764			
+1/12/2023, 1:19:30 PM		US-P-CZ-AS-2200237 Cimplicity Covered CRM Email #5_WF#177126		commented on	13016320	2341341032	1237681553	1237681553	DiscussionNote
+1/12/2023, 2:37:32 PM	[object Object]		#196 full build |iiii	pushed to	13016320	2341463525			
+1/12/2023, 2:40:37 PM		US-P-CZ-AS-2200234 Intro to Cimzia Workfront# 174213		commented on	13016320	2341468187	1237750141	1237750141	Note
+1/12/2023, 3:53:12 PM	[object Object]		#189 ER fix |ii	pushed to	13016320	2341573723			
+1/12/2023, 3:56:13 PM	[object Object]		#189 ER fix	pushed to	13016320	2341577779			
+1/12/2023, 3:58:51 PM	[object Object]		#189 ER fix	pushed to	13016320	2341581277			
+1/12/2023, 4:00:18 PM	[object Object]		glob	pushed to	13016320	2341583378			
+1/12/2023, 4:00:38 PM		US-P-CZ-AS-2200238 Cimplicity Email Number 6- Trusted Nurse Support WF#177239		commented on	13016320	2341583806	1237811631	1237811631	Note
+1/12/2023, 5:25:22 PM		Bio - Experienced Module - ALL FRAGMENTS		commented on	39768785	2341692054	1237875096	1237875096	Note
+1/12/2023, 6:02:50 PM		PSO Module- ALL FRAGMENTS		commented on	39768785	2341736135	1237903614	1237903614	Note
+1/12/2023, 6:32:12 PM	[object Object]		UPDAte	pushed to	39768785	2341763917			
+1/12/2023, 6:36:17 PM	[object Object]		#72 internal pckg |i	pushed to	39768785	2341767582			
+1/12/2023, 6:37:51 PM		Email Testing -  Single Data Fragment 2		commented on	39768785	2341769200	1237922346	1237922346	Note
+1/12/2023, 6:55:30 PM		Email Testing - Double Data Fragment 2		commented on	39768785	2341783760	1237929691	1237929691	Note
+1/13/2023, 10:39:36 AM	[object Object]		#194 updated link |i	pushed to	13016320	2343436504			
+1/13/2023, 10:40:39 AM		US-N-DA-RH-2200071 - RheuMuseum SGE Welcome Email WF 242151		commented on	13016320	2343438901	1238971460	1238971460	Note
+1/13/2023, 2:47:59 PM	[object Object]		htmlmin	pushed to	13016320	2343845392			
+1/14/2023, 1:20:11 PM	[object Object]		#197 mjml build |iii	pushed to	13016320	2344566886			
+1/14/2023, 1:26:57 PM	[object Object]		#197 mjml build |i	pushed to	13016320	2344569828			
+1/14/2023, 1:33:46 PM		US-N-DA-RH-2200070 - RheuMuseum IL-17 MoD Video Email WF 242150		commented on	13016320	2344572808	1239608290	1239608290	Note
+1/14/2023, 1:49:01 PM	[object Object]		images optimize	pushed to	13016320	2344579523			
+1/14/2023, 2:08:23 PM	[object Object]		#192 ER fixs |i	pushed to	13016320	2344587233			
+1/14/2023, 2:12:45 PM		US-P-CZ-AS-2200233_Cimplicity CRM 1 - Sign-up Welcome Message WF# 176900		commented on	13016320	2344588960	1239619453	1239619453	Note
+1/14/2023, 2:54:55 PM	[object Object]		#193 ER fix |i	pushed to	13016320	2344603999			
+1/14/2023, 2:56:28 PM		US-P-CZ-AS-2200239 Cimplicity CRM 7 - Program Q+A WF# 177352		commented on	13016320	2344604522	1239625733	1239625733	Note
+1/14/2023, 6:45:27 PM	[object Object]		#195 ER fix |i	pushed to	13016320	2344680560			
+1/14/2023, 6:46:31 PM		US-P-CZ-AS-2200235 Intro to Cimplicity TalktoUCB WF# 173200		commented on	13016320	2344680816	1239662570	1239662570	Note
+1/14/2023, 6:56:38 PM	[object Object]		#190 ER updates |i	pushed to	13016320	2344683237			
+1/15/2023, 11:22:38 AM	[object Object]		#190 ER fixa |i	pushed to	13016320	2345090987			
