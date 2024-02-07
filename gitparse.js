@@ -24,20 +24,25 @@ function parseJSONToPlainText(jsonData) {
 
 	const parsedData = jsonData.map(entry => {
 
+		const target_title = entry.target_title || {};
 		const isoTimestamp = entry.created_at || {};
 		const normalTime = convertToNormalTime(isoTimestamp);
+		const action_name = entry.action_name || {};
 		const issueId = entry.note || {};
-		const pushData = entry.push_data || {};
+		const push_data = entry.push_data || {};
 		const noteBody = entry.note || {};
-		const issueResult = issueId.noteable_iid ? pushData.commit_title : {};
+		const issueResult = issueId.noteable_iid ? push_data.commit_title : {};
 
 
 
 		return [
 			normalTime || '',
+			target_title || 'no target title',
+			action_name || 'no action name',
+			
 			issueResult || '',
 			entry.target_title,
-			pushData.commit_title || '',
+			push_data.commit_title || 'no title',
 			/*noteBody.body || '',*/
 			entry.action_name,
 
