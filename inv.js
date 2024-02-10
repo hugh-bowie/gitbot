@@ -10,7 +10,7 @@ clear();
 	try {
 
 		//••••initialize
-		const browser = await puppeteer.launch({ headless: false, args: ['--window-size=1920,1047', '--window-position=0,0', '--start-in-incognito'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
+		const browser = await puppeteer.launch({ headless: false, args: ['--window-size=1920,1047', '--window-position=0,0'] }); //////// executablePath: process.env.XPTH, userDataDir: process.env.USDD, slowMo: 100  ♻♻♻♻♻♻♻♻♻♻
 		const page = await browser.newPage();
 		await page.goto('https://gitlab.com', { waitUntil: 'networkidle2' });
 		await page.waitForTimeout(1111);
