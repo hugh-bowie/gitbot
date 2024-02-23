@@ -3,6 +3,11 @@ const r23 = r(1500, 3000);
 const r15 = r(1000, 1500);
 const puppeteer = require('puppeteer');
 
+function clear() {
+	fs.truncate(`dfa-invoice.txt`, 0, () => {
+		console.log(`results cleared`);
+	});
+}
 
 //random number function
 function r(min, max) {
@@ -10,9 +15,7 @@ function r(min, max) {
 }
 
 function clear() {
-	fs.truncate(`invoice.txt`, 0, () => {
-		console.log(`results cleared`);
-	});
+	fs.truncate(`dfa-invoice.txt`, 0, () => console.log(`results cleared`));
 }
 
 function convertToNormalTime(isoTimestamp) {

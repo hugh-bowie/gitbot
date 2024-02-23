@@ -28,7 +28,7 @@ const commentedTitles = jsonData.filter(item => item.action_name === "commented 
 // }
 // Extract WF numbers from commented titles, default to 'none in title' if not found
 const wfNumbers = jsonData.filter(item => item.action_name === "commented on").map(item => {
-  const match = item.target_title.match(/wf\#?\s?\d{6}/i);
+  const match = item.target_title.match(/[wf]?\#?\s?\d{6}/i);
   if (match) {
     // Convert match to string and apply replacements
     let issueString = match[0].trim();
