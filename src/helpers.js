@@ -9,6 +9,23 @@ function clear() {
 	});
 }
 
+function sortResults() {
+	fs.readFile(`dfa-invoice.txt`, 'utf8', (err, data) => {
+		if (err) throw err;
+		const lines = data.trim().split('\n');
+		const sorted = lines.sort((a, b) => {
+			const aDate = new Date(a.split('\t')[0]);
+			const bDate = new Date(b.split('\t')[0]);
+			return aDate - bDate;
+		});
+		fs.writeFile(`dfa-invoice.txt`, sorted.join('\n'), () => {
+			console.log(`results sorted`);
+		});
+	});
+
+}
+
+
 //random number function
 function r(min, max) {
 	return ~~(Math.random() * (max - min) + min);
@@ -101,4 +118,4 @@ async function checkCookie() {
 
 
 
-module.exports = { mobile, desktop, r, convertToNormalTime, gitlog, log, makeList, logLinks, clear, checkCookie, r15, r23 };
+module.exports = { mobile, desktop, r, sortResults, convertToNormalTime, gitlog, log, makeList, logLinks, clear, checkCookie, r15, r23 };

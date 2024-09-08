@@ -1,4 +1,4 @@
-<h1 align="center">gitLab automation with Puppeteer</h1>
+<!-- <h1 align="center">gitLab automation with Puppeteer</h1> -->
 
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/hugh-bowie/gitbot" />
@@ -45,7 +45,7 @@ using this site. [https://bot.sannysoft.com/](https://bot.sannysoft.com/)
 You must give this Bot Accounts to engage with. Add them or remove them to the
 targetAccounts.js Array.
 
-`node ig.js`
+`npm run` or `node cheer.js`
 
 ## 🍻 Contributing
 

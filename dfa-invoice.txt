@@ -1,74 +1,19 @@
-February 22, 2024 at 3:29:47 PM EST	#56	QC2: MR-08466 - RTE for CT Prescribers - 485038	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/56	485038	ov
-February 22, 2024 at 3:23:24 PM EST	#36	AE/ET-05765 SP-05877 Supprelin Removal Video RTE- WAC and NON WAC 650020	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/36	650020	ov
-February 22, 2024 at 3:05:29 PM EST	#57	QC2: MR-08451 - RTE 5 Veeva engage email - 516509	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/57	516509	ov
-February 20, 2024 at 5:30:43 PM EST	#30	SP-05845 NPP CRM Email Bi-Fold 2 QC- 556656	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/30	556656	ov
-February 20, 2024 at 5:39:14 PM EST	#54	QC MR-08506 RTE 4c: Summary Overview (Call Agnostic) 657426	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/54	657426	ov
-February 20, 2024 at 3:42:48 PM EST	#31	SP-05844 NPP CRM Email Bi-Fold 1 QC - 556650	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/31	556650	ov
-February 20, 2024 at 3:59:43 PM EST	#19	MR-08447 - RTE 1: Opioid Crisis - 484706	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/19	484706	ov
-February 20, 2024 at 7:11:56 PM EST	#36	AE/ET-05765 SP-05877 Supprelin Removal Video RTE- WAC and NON WAC 650020	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/36	650020	iiii
-February 20, 2024 at 3:24:43 PM EST	#52	QC MR-08503 RTE 3c: Duration of Action (Call Agnostic) 654701	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/52	654701	ov
-February 20, 2024 at 2:50:05 PM EST	#54	QC MR-08506 RTE 4c: Summary Overview (Call Agnostic) 657426	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/54	657426	ov
-February 20, 2024 at 3:01:53 PM EST	#53	QC MR-08505 RTE 4b: Summary Overview (Post-Call) 654787	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/53	654787	ov
-February 20, 2024 at 2:25:42 PM EST	#47	QC MR-08498 RTE 2a: Administration and Dosing (Pre-Call) 654436	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/47	654436	ov
-February 16, 2024 at 2:46:14 PM EST	#39	MR-08504 RTE 4a: Summary Overview (Pre-Call) 654744	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/39	654744	ov
-February 16, 2024 at 2:37:53 PM EST	#47	QC MR-08498 RTE 2a: Administration and Dosing (Pre-Call) 654436	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/47	654436	ov
-February 16, 2024 at 2:28:16 PM EST	#42	QC MR-08495 - RTE 1a: Opioid Crisis(Pre-Call) 652400	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/42	652400	ov
-February 16, 2024 at 2:17:59 PM EST	#36	MR-08501 RTE 3a: Duration of Action (Pre-Call) 654615	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/36	654615	ov
-February 16, 2024 at 12:18:10 PM EST	#30	SP-05845 NPP CRM Email Bi-Fold 2 QC- 556656	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/30	556656	i
-February 16, 2024 at 11:45:01 AM EST	#28	SP-05847 NPP CRM Email Bi-Fold 4 QC- 556668	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/28	556668	ov
-February 16, 2024 at 7:57:46 AM EST	#31	SP-05844 NPP CRM Email Bi-Fold 1 QC - 556650	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/31	556650	ov
-February 16, 2024 at 7:43:14 AM EST	N/A	N/A	N/A	null	ov
-February 15, 2024 at 3:53:41 PM EST	#38	MR-08503 RTE 3c: Duration of Action (Call Agnostic) 654701	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/38	654701	ov
-February 15, 2024 at 1:14:50 PM EST	#79	US-WAK-2300459 Ongoing Symptoms/Abby HCP Email: Trialists - 568528	/dfagang/Harmony-Know-Narcolepsy/wakix-mjml-emails-classical-panda-2023/-/issues/79	568528	ov
-February 14, 2024 at 4:43:13 PM EST	#39	MR-08504 RTE 4a: Summary Overview (Pre-Call) 654744	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/39	654744	ov
-February 14, 2024 at 4:30:48 PM EST	#40	MR-08505 RTE 4b: Summary Overview (Post-Call) 654787	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/40	654787	ov
-February 14, 2024 at 4:13:23 PM EST	#35	MR-08500 RTE 2c: Administration and Dosing (Call Agnostic) 654572	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/35	654572	ov
-February 14, 2024 at 3:56:23 PM EST	#34	MR-08499 RTE 2b: Administration and Dosing (Post-Call) 654479	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/34	654479	ov
-February 14, 2024 at 3:16:27 PM EST	#44	QC MR-08497 - RTE 1c: Opioid Crisis - Call Agnostic 653943	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/44	653943	ov
-February 14, 2024 at 3:31:51 PM EST	#33	MR-08498 RTE 2a: Administration and Dosing (Pre-Call) 654436	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/33	654436	ov
-February 14, 2024 at 3:10:53 PM EST	#43	QC MR-08496 - RTE 1b: Opioid Crisis(Post-Call) 652500	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/43	652500	ov
-February 14, 2024 at 3:00:20 PM EST	#52	QC MR-08503 RTE 3c: Duration of Action (Call Agnostic) 654701	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/52	654701	ov
-February 14, 2024 at 2:52:38 PM EST	#51	QC MR-08502 RTE 3b: Duration of Action (Post- Call) 654658	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/51	654658	ov
-February 14, 2024 at 2:40:49 PM EST	#50	QC MR-08501 RTE 3a: Duration of Action (Pre-Call) 654615	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/50	654615	ov
-February 14, 2024 at 2:30:00 PM EST	#42	QC MR-08495 - RTE 1a: Opioid Crisis(Pre-Call) 652400	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/42	652400	ov
-February 14, 2024 at 11:35:00 AM EST	#54	QC MR-08506 RTE 4c: Summary Overview (Call Agnostic) 657426	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/54	657426	ov
-February 13, 2024 at 6:29:26 PM EST	#47	QC MR-08498 RTE 2a: Administration and Dosing (Pre-Call) 654436	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/47	654436	ov
-February 13, 2024 at 3:48:21 PM EST	#319	AE/ET-05753 _ XDC Office Staff Email Program_RTE	/dfagang/endo-corp/Xiaflex/xiaflex-veeva-rep-triggered-emails-plucky-linen/-/issues/319	undefined	ov
-February 13, 2024 at 3:35:15 PM EST	#19	AE/ET-05216 (AV-05226) New Customer Office Staff Template_NON WAC	/dfagang/endo-corp/aveed/endo-aveed-rep-triggered-emails-work-from-gerks/-/issues/19	undefined	ov
-February 13, 2024 at 3:25:48 PM EST	#26	AE/ET-05720 AV-05227 z(CO Reps) AVEED - Upcoming Appointment Reminder - WAC	/dfagang/endo-corp/aveed/endo-aveed-rep-triggered-emails-work-from-gerks/-/issues/26	undefined	0
-February 13, 2024 at 3:17:10 PM EST	#27	AE/ET-05721 AV-05225 z(CO Reps) AVEED - Sorry I Missed You - WAC	/dfagang/endo-corp/aveed/endo-aveed-rep-triggered-emails-work-from-gerks/-/issues/27	undefined	0
-February 13, 2024 at 2:52:08 PM EST	#28	SP-05847 NPP CRM Email Bi-Fold 4 QC- 556668	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/28	556668	1
-February 12, 2024 at 2:28:05 PM EST	#44	QC MR-08497 - RTE 1c: Opioid Crisis - Call Agnostic 653943	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/44	653943	ov
-February 9, 2024 at 3:38:16 PM EST	#42	QC MR-08495 - RTE 1a: Opioid Crisis(Pre-Call) 652400	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/42	652400	ov
-February 8, 2024 at 7:10:24 PM EST	#13	MULTI-05258 KASS Remote Rep RTE Intro  438701	/dfagang/endo-corp/nascobal/endo-nascobal-emails/-/issues/13	438701	iii
-February 8, 2024 at 5:53:19 PM EST	#319	AE/ET-05753 _ XDC Office Staff Email Program_RTE	/dfagang/endo-corp/Xiaflex/xiaflex-veeva-rep-triggered-emails-plucky-linen/-/issues/319	undefined	ov
-February 8, 2024 at 4:04:13 PM EST	#29	SP-05846 NPP CRM Email Bi-Fold 3 QC- 556662	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/29	556662	ov
-February 8, 2024 at 2:47:42 PM EST	#39	MR-08504 RTE 4a: Summary Overview (Pre-Call) 654744	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/39	654744	ov
-February 8, 2024 at 2:41:40 PM EST	#31	SP-05844 NPP CRM Email Bi-Fold 1 QC - 556650	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/31	556650	i
-February 8, 2024 at 5:39:14 PM EST	#79	US-WAK-2300459 Ongoing Symptoms/Abby HCP Email: Trialists - 568528	/dfagang/Harmony-Know-Narcolepsy/wakix-mjml-emails-classical-panda-2023/-/issues/79	568528	ov
-February 6, 2024 at 5:34:58 PM EST	#38	MR-08503 RTE 3c: Duration of Action (Call Agnostic) 654701	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/38	654701	ov
-February 6, 2024 at 7:01:17 PM EST	#45	MR-08481 - Digital Dosing and Admin Slim Jim - 580830	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/45	580830	ov
-February 6, 2024 at 8:04:06 PM EST	#46	MR-08452 - Digital Nalmefene CVA - 518750	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/46	518750	ov
-February 6, 2024 at 5:22:32 PM EST	#35	MR-08500 RTE 2c: Administration and Dosing (Call Agnostic) 654572	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/35	654572	ov
-February 5, 2024 at 6:38:01 PM EST	#35	MR-08500 RTE 2c: Administration and Dosing (Call Agnostic) 654572	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/35	654572	ov
-February 5, 2024 at 6:56:12 PM EST	#37	MR-08502 RTE 3b: Duration of Action (Post- Call) 654658	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/37	654658	ov
-February 6, 2024 at 4:48:47 PM EST	#39	MR-08504 RTE 4a: Summary Overview (Pre-Call) 654744	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/39	654744	ov
-February 5, 2024 at 6:25:18 PM EST	#31	MR-08496 RTE 1b: Opioid Crisis (Post - Call) 652500	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/31	652500	ov
-February 5, 2024 at 6:02:07 PM EST	#32	MR-08497 RTE 1c: Opioid Crisis (Call Agnostic) 653943	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/32	653943	ov
-February 5, 2024 at 4:35:48 PM EST	#38	MR-08503 RTE 3c: Duration of Action (Call Agnostic) 654701	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/38	654701	ov
-February 5, 2024 at 4:51:44 PM EST	#30	MR-08495 RTE 1a: Opioid Crisis (Pre-Call) 652400	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/30	652400	ov
-February 5, 2024 at 4:56:06 PM EST	#33	MR-08498 RTE 2a: Administration and Dosing (Pre-Call) 654436	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/33	654436	ov
-February 5, 2024 at 3:46:36 PM EST	#34	MR-08499 RTE 2b: Administration and Dosing (Post-Call) 654479	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/34	654479	ov
-February 5, 2024 at 3:22:08 PM EST	#35	MR-08500 RTE 2c: Administration and Dosing (Call Agnostic) 654572	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/35	654572	ov
-February 1, 2024 at 3:10:01 PM EST	#31	SP-05844 NPP CRM Email Bi-Fold 1 QC - 556650	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/31	556650	i
-February 2, 2024 at 9:04:43 AM EST	#32	SP-05873 NPP Email Supprelin LA Support Center QC - 650010	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/32	650010	ov
-February 1, 2024 at 11:45:00 AM EST	#36	MR-08501 RTE 3a: Duration of Action (Pre-Call) 654615	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/36	654615	iii
-January 31, 2024 at 4:44:30 PM EST	N/A	N/A	N/A	null	i
-January 31, 2024 at 4:41:17 PM EST	#29	SP-05846 NPP CRM Email Bi-Fold 3 QC- 556662	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/29	556662	ov
-January 31, 2024 at 9:52:42 AM EST	#32	SP-05873 NPP Email Supprelin LA Support Center QC - 650010	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/32	650010	i
-January 30, 2024 at 4:07:44 PM EST	#33	MR-08498 RTE 2a: Administration and Dosing (Pre-Call) 654436	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/33	654436	iii
-January 30, 2024 at 3:23:09 PM EST	#27	SP-05878 SLA PK Data NPP Email - 2022 ISI Update (SP-05729) - 650015	/dfagang/endo-corp/supprelin/supprelin-branded-email/-/issues/27	650015	ov
-January 30, 2024 at 2:39:15 PM EST	N/A	N/A	N/A	null	ov
-February 1, 2024 at 2:42:34 PM EST	#13	MULTI-05258 KASS Remote Rep RTE Intro  438701	/dfagang/endo-corp/nascobal/endo-nascobal-emails/-/issues/13	438701	ii
-February 2, 2024 at 10:09:45 AM EST	#39	MR-08504 RTE 4a: Summary Overview (Pre-Call) 654744	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/39	654744	iii
-January 31, 2024 at 4:47:33 PM EST	#32	MR-08497 RTE 1c: Opioid Crisis (Call Agnostic) 653943	/dfagang/Purdue/nalmefene/nalmefene-emails/rep-triggered-emails-copper-greyhound/-/issues/32	653943	ov
+August 26, 2024 at 3:43:19 PM EDT	#79	BDF598 Advanced Repair NPP email - QC - WF# 813452	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/79	813452	ov
+August 19, 2024 at 3:13:15 PM EDT	#77	BDF598 Advanced Repair NPP email - Dev - WF# 813452	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/77	813452	iii
+August 19, 2024 at 10:58:23 AM EDT	#76	BDF606 Lloyd NPP email - Dev - WF# 778665	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/76	778665	ov
+August 21, 2024 at 4:10:57 PM EDT	#77	BDF598 Advanced Repair NPP email - Dev - WF# 813452	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/77	813452	ov
+August 22, 2024 at 4:14:11 PM EDT	#79	BDF598 Advanced Repair NPP email - QC - WF# 813452	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/79	813452	ov
+August 23, 2024 at 3:35:37 PM EDT	#78	BDF606 Lloyd NPP Email - QC - WF#778665	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/78	778665	ov
+July 22, 2024 at 2:34:15 PM EDT	#74	BDF605 Sun NPP Email - OCE upload/test - WF# 778094	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/74	778094	ov
+July 17, 2024 at 4:01:18 PM EDT	#72	BDF605 Sun H2H NPP email - dev - WF# 778094	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/72	778094	i
+July 12, 2024 at 1:31:05 PM EDT	#72	BDF605 Sun H2H NPP email - dev - WF# 778094	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/72	778094	ov
+July 8, 2024 at 11:38:14 AM EDT	#72	BDF605 Sun H2H NPP email - dev - WF# 778094	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/72	778094	iiii
+May 24, 2024 at 12:40:32 PM EDT	#1	MPACP-128-00037 - XYOSTED Efficacy and Dosing RTE - WF: 598050	/dfagang/halozyme/xyosted/rte-french-fry/rte-french-fry/-/issues/1	598050	ov
+May 24, 2024 at 12:37:08 PM EDT	#2	MPACP-128-00038 - XYOSTED Access, CoPay, and Savings and Support RTE - WF: 670631	/dfagang/halozyme/xyosted/rte-french-fry/rte-french-fry/-/issues/2	670631	ov
+May 22, 2024 at 3:04:57 PM EDT	#2	MPACP-128-00038 - XYOSTED Access, CoPay, and Savings and Support RTE - WF: 670631	/dfagang/halozyme/xyosted/rte-french-fry/rte-french-fry/-/issues/2	670631	ov
+May 21, 2024 at 4:01:25 PM EDT	#2	MPACP-128-00038 - XYOSTED Access, CoPay, and Savings and Support RTE - WF: 670631	/dfagang/halozyme/xyosted/rte-french-fry/rte-french-fry/-/issues/2	670631	ov
+May 21, 2024 at 12:47:35 PM EDT	#2	MPACP-128-00038 - XYOSTED Access, CoPay, and Savings and Support RTE - WF: 670631	/dfagang/halozyme/xyosted/rte-french-fry/rte-french-fry/-/issues/2	670631	ov
+May 17, 2024 at 2:29:42 PM EDT	#2	MPACP-128-00038 - XYOSTED Access, CoPay, and Savings and Support RTE - WF: 670631	/dfagang/halozyme/xyosted/rte-french-fry/rte-french-fry/-/issues/2	670631	iiii
+May 16, 2024 at 1:43:39 PM EDT	#1	MPACP-128-00037 - XYOSTED Efficacy and Dosing RTE - WF: 598050	/dfagang/halozyme/xyosted/rte-french-fry/rte-french-fry/-/issues/1	598050	ov
+May 15, 2024 at 3:24:30 PM EDT	#1	MPACP-128-00037 - XYOSTED Efficacy and Dosing RTE - WF: 598050	/dfagang/halozyme/xyosted/rte-french-fry/rte-french-fry/-/issues/1	598050	i
+May 15, 2024 at 2:17:40 PM EDT	#1	UNBR-05055 National Men's Health Month Email	/dfagang/endo-corp/endo-corporate/npp-emails/mens-health-npp-2024/-/issues/1	undefined	ov

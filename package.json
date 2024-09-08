@@ -5,9 +5,9 @@
   "main": "y",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "go": "node inv.js",
+    "start": "node cheer.js",
     "get": "node getURL.js",
-    "reverse": "tail -r invoice.txt > reversed.txt"
+    "reverse": "tail -r dfa-invoice.txt > reversed.txt"
   },
   "repository": {
     "type": "git",
