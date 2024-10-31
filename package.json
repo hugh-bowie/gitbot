@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node cheer.js",
-    "get": "node getURL.js",
-    "reverse": "tail -r dfa-invoice.txt > reversed.txt"
+    "get": "node invoice.js",
+    "reverse": "tail -r dfa-invoice.txt > reversed.txt",
+    "hours": "sed -i 's/ov\/0.5\/g' dfa-invoice.txt && sed 's/iiiii\/5\/g' dfa-invoice.txt"
   },
   "repository": {
     "type": "git",
