@@ -1,0 +1,36 @@
+January 13, 2025 at 4:22:16 PM EST	#108	BDF664 Body Moisturizer peds NPP email WF# 958116	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/108	958116	iii
+December 9, 2024 at 5:38:52 PM EST	#100	BDF594 Aquaphor disease state npp email - Dev - WF# 762493	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/100	762493	ov
+December 9, 2024 at 5:29:14 PM EST	#99	BDF501 Face npp email #3 - Dev - WF# 563355	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/99	563355	ov
+December 9, 2024 at 10:20:03 AM EST	#99	BDF501 Face npp email #3 - Dev - WF# 563355	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/99	563355	iii
+December 9, 2024 at 8:59:12 AM EST	#100	BDF594 Aquaphor disease state npp email - Dev - WF# 762493	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/100	762493	iiii
+November 23, 2024 at 8:16:21 AM EST	#6	Editorial- MR-08606 Zurnai NPP Email 1 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/6	931712	i
+November 22, 2024 at 9:42:17 PM EST	#9	Editorial- MR-08609 Zurnai NPP Email 2 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/9	931712	i
+November 22, 2024 at 8:49:31 PM EST	#8	Editorial- MR-08610 Zurnai NPP Email 03 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/8	931712	i
+November 22, 2024 at 8:01:30 PM EST	#10	Editorial- MR-08611 Zurnai NPP Email 4 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/10	931712	i
+November 22, 2024 at 7:24:26 PM EST	#11	Editorial- MR-08612 Zurnai NPP Email 5 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/11	931712	i
+November 22, 2024 at 1:03:41 AM EST	#74	QC: QZA-03-24-0025 v2.0 eCRM Email Find a Specialist WF 1020553	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/74	undefined	i
+November 21, 2024 at 11:46:04 PM EST	#6	Editorial- MR-08606 Zurnai NPP Email 1 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/6	931712	i
+November 20, 2024 at 6:37:01 PM EST	#76	QC: QZA-03-24-0022 v2.0 eCRM Ongoing Treatment Email 1021378	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/76	undefined	i
+November 18, 2024 at 4:18:16 PM EST	#5	Dev- MR-08612 Zurnai NPP Email 5 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/5	931712	iii
+November 18, 2024 at 4:02:42 PM EST	#4	Dev- MR-08611 Zurnai NPP Email 4 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/4	931712	iii
+November 18, 2024 at 3:14:50 PM EST	#7	Dev- MR-08610 Zurnai NPP Email 03 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/7	931712	iii
+January 9, 2025 at 1:17:27 PM EST	#107	BDF665 Peds Diaper Rash email - Dev - WF# 958077	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/107	958077	iii
+December 12, 2024 at 9:19:09 AM EST	#101	BDF594 Aquaphor disease state npp email - QC - WF# 762493	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/101	762493	i
+December 12, 2024 at 9:02:44 AM EST	#102	BDF501 Face npp email #3 - QC - WF# 563355	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/102	563355	i
+November 14, 2024 at 7:46:49 AM EST	#67	QZA-02-24-0027 v2.0 - eCRM What to expect on the day/preparation Email WF 1011766	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/67	undefined	ov
+November 14, 2024 at 7:37:27 AM EST	#72	QZA-03-23-0025 v4.0 eCRM Patient Welcome Email 1021582	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/72	undefined	ov
+November 11, 2024 at 3:13:50 PM EST	#68	QZA-03-24-0025 v2.0 eCRM Email Find a Specialist WF 1020553	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/68	undefined	ov
+November 11, 2024 at 11:06:39 AM EST	#67	QZA-02-24-0027 v2.0 - eCRM What to expect on the day/preparation Email WF 1011766	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/67	undefined	ov
+November 11, 2024 at 10:56:35 AM EST	#68	QZA-03-24-0025 v2.0 eCRM Email Find a Specialist WF 1020553	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/68	undefined	ov
+November 11, 2024 at 10:50:25 AM EST	#69	QZA-03-24-0023 v2.0 eCRM Patient Testimonial Email 1021351	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/69	undefined	ov
+November 11, 2024 at 10:46:15 AM EST	#70	QZA-03-24-0022 v2.0 eCRM Ongoing Treatment Email 1021378	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/70	undefined	ov
+November 11, 2024 at 10:34:44 AM EST	#71	QZA-03-24-0024 v2.0 eCRM Treatment Reminder Email 1021555	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/71	undefined	ov
+November 6, 2024 at 10:15:34 PM EST	#92	BDF647 Baldwin NPP Email - QC - WF# 889700	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/92	889700	i
+November 5, 2024 at 5:22:48 PM EST	#91	BDF663 Peds Eczema email - Dev - WF# 956638	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/91	956638	iiii
+October 31, 2024 at 9:16:31 AM EDT	#89	BDF647 Dr. Baldwin NPP Email - Dev - WF# 889700	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/89	889700	ov
+November 12, 2024 at 3:00:46 PM EST	#69	QZA-03-24-0023 v2.0 eCRM Patient Testimonial Email 1021351	/dfagang/qutenza/qutenza-patient-crm-emails-italian-dads/-/issues/69	undefined	ov
+October 29, 2024 at 10:46:47 PM EDT	#89	BDF647 Dr. Baldwin NPP Email - Dev - WF# 889700	/dfagang/beiersdorf1/npp-emails/beiersdorf-npp-emails-purple-pesci/-/issues/89	889700	iii
+October 28, 2024 at 3:33:02 PM EDT	#7	NEF-US-0313 neffy Retail Pharmacist Email 982650	/dfagang/ars-pharma/ars-pharma-emails/-/issues/7	982650	ov
+November 15, 2024 at 3:00:39 PM EST	#3	Dev- MR-08609 Zurnai NPP Email 2 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/3	931712	iii
+November 14, 2024 at 4:04:54 PM EST	#2	Dev- MR-08606 Zurnai NPP Email 1 WF 931712	/dfagang/Purdue/zurnai-emails/-/issues/2	931712	iii
+October 31, 2024 at 8:53:04 AM EDT	#1	MR-08606 - Zurnai NPP Email 931712	/dfagang/Purdue/zurnai-emails/-/issues/1	931712	iiii

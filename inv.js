@@ -1,3 +1,4 @@
+/*
 require('dotenv').config();
 const fs = require('fs');
 const puppeteer = require('puppeteer-extra');
@@ -125,3 +126,5 @@ clear();
 		// 		log(rows.slice(11));
 		// 	}
 		// }
+
+		*/

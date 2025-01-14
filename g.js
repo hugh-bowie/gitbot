@@ -1,4 +1,4 @@
-
+/*
 
 const fs = require('fs');
 const { gitlog, convertToNormalTime } = require('./src/helpers');
@@ -89,3 +89,4 @@ const spreadsheetData = [
 
 // Use `gitlog` to write `spreadsheetData` to the file
 gitlog(spreadsheetData.join('\n')); // Assuming `gitlog` expects a single string
+*/

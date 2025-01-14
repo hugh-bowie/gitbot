@@ -5,8 +5,8 @@
   "main": "y",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node cheer.js",
-    "get": "node invoice.js",
+    "start": "node invoice.js",
+    "get": "",
     "reverse": "tail -r dfa-invoice.txt > reversed.txt",
     "hours": "sed -i 's/ov\/0.5\/g' dfa-invoice.txt && sed 's/iiiii\/5\/g' dfa-invoice.txt"
   },
